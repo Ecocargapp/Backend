@@ -1,0 +1,180 @@
+# AgroSoft — Backend
+
+API del sistema de gestión integrada de planta de concentrados y granjas porcinas.
+Node.js + Express + PostgreSQL.
+
+## Estado actual (Etapa 1)
+Autenticación y módulo administrativo de usuarios:
+- Login con contraseñas cifradas (bcrypt) y sesiones por token (JWT, 8 h)
+- Gestión de usuarios (crear, activar/desactivar, restablecer contraseña)
+- Roles admin / operador
+- Esquema de base de datos listo para planta, granjas e inventario
+
+---
+
+## Requisitos
+- Node.js 18 o superior
+- PostgreSQL 14 o superior
+
+## Instalación local
+
+1. Instalar dependencias:
+   ```
+   npm install
+   ```
+
+2. Copiar la plantilla de configuración y rellenarla:
+   ```
+   cp .env.example .env
+   ```
+   Edita `.env` con tus datos reales (ver sección Variables más abajo).
+
+3. Crear las tablas y el usuario administrador:
+   ```
+   npm run init-db
+   ```
+
+4. Arrancar:
+   ```
+   npm start
+   ```
+
+El API queda en `http://localhost:3000`. Prueba `http://localhost:3000/api/salud`.
+
+---
+
+## Variables de entorno (.env)
+
+| Variable      | Descripción                                             |
+|---------------|---------------------------------------------------------|
+| PORT          | Puerto del servidor (por defecto 3000)                  |
+| JWT_SECRET    | Clave para firmar sesiones. Larga y aleatoria.          |
+| DB_HOST       | Host de PostgreSQL (localhost si está en la misma máquina) |
+| DB_PORT       | Puerto de PostgreSQL (5432)                             |
+| DB_USER       | Usuario de la base de datos                             |
+| DB_PASSWORD   | Contraseña de la base de datos                          |
+| DB_NAME       | Nombre de la base de datos                              |
+| DB_SSL        | `true` solo si usas Amazon RDS u otro Postgres con SSL  |
+| FRONTEND_URL  | URL(s) del frontend autorizadas para CORS (separadas por coma) |
+
+Genera una JWT_SECRET así:
+```
+node -e "console.log(require('crypto').randomBytes(48).toString('hex'))"
+```
+
+---
+
+## Despliegue en el servidor EC2 (resumen)
+
+1. Instalar PostgreSQL en el servidor:
+   ```
+   sudo apt update && sudo apt install postgresql -y
+   ```
+
+2. Crear la base de datos y el usuario:
+   ```
+   sudo -u postgres psql
+   CREATE DATABASE agrosoft;
+   CREATE USER agrosoft WITH ENCRYPTED PASSWORD 'una-clave-fuerte';
+   GRANT ALL PRIVILEGES ON DATABASE agrosoft TO agrosoft;
+   \q
+   ```
+
+3. Clonar el repositorio, instalar Node y dependencias, crear el `.env`,
+   correr `npm run init-db` y levantar el servicio.
+
+4. Para que el backend siga corriendo tras cerrar la sesión SSH, usar un
+   gestor de procesos como `pm2`:
+   ```
+   sudo npm install -g pm2
+   pm2 start server.js --name agrosoft-api
+   pm2 save
+   ```
+
+La guía detallada paso a paso se entrega aparte.
+
+---
+
+## Seguridad
+- El archivo `.env` NUNCA se sube a Git (está en `.gitignore`).
+- Las contraseñas se guardan solo cifradas, nunca en texto plano.
+- En producción, servir el API detrás de HTTPS (mismo Nginx + Certbot del sitio web).
+
+## Próximas etapas
+2. Catálogo (items y ubicaciones)  ·  3. Producción en planta  ·
+4. Despacho y consumo en granjas  ·  5. Inventario y reportes
+
+---
+
+## Módulo de Granja de Cría (Etapa 2)
+
+Control del ciclo reproductivo porcino con manejo individual por cerda.
+
+### Inicializar sus tablas
+Tras `npm run init-db`, ejecutar también:  `node initdb_cria.js`
+Crea las tablas (cerdas, servicios, diagnósticos, partos, destetes, salidas)
+y carga las razas base (Camborough, Franpabel).
+
+### Ciclo automatizado
+Cada evento actualiza el estado de la cerda: servicio → servida ·
+diagnóstico + → gestante · parto → lactante · destete → vacía.
+La fecha probable de parto se calcula a 114 días del servicio.
+
+---
+
+## Módulo de Informes de Cría (Etapa 3)
+
+Parámetros reproductivos, productivos y de costos.
+
+### Inicializar sus tablas
+Tras los init anteriores, ejecutar: `node initdb_informes.js`
+Crea las tablas de bandas y consumo de alimento.
+
+### Rutas (bajo /api/informes, requieren sesión)
+- GET /reproductivo — nacidos vivos/muertos/totales, promedios, mortalidad lactancia, tasa de partos
+- GET /consumo — bultos por fase, costo total, costo del lechón (alimento)
+- GET /por-banda — indicadores agrupados por banda
+- GET /hembras-descartar — por ciclo alto o bajo rendimiento
+- GET/POST /bandas — gestión de bandas/lotes
+- GET/POST /consumos — registro de consumo de alimento
+
+Todos aceptan ?desde=YYYY-MM-DD&hasta=YYYY-MM-DD para filtrar por periodo.
+
+---
+
+## Costeo por banda (Etapa 4)
+
+Inicializar: `node initdb_costeo.js` (crea consumo_diario y lactancia_banda).
+
+**Lógica:**
+- Consumo diario de la granja: bultos de gestación y lactancia por día (POST /api/costeo/consumo-diario).
+- Gestación: se prorratea automáticamente entre bandas según hembras en gestación por día
+  (calculado por fecha_ultimo_servicio y fecha_ultimo_parto de cada cerda).
+- Lactancia: consumo real ingresado por banda (POST /api/costeo/lactancia-banda).
+- GET /api/costeo/costeo/:bandaId devuelve gestación prorrateada + lactancia real + costo por lechón.
+- Los eventos de servicio/parto/destete guardan las fechas en la cerda para alimentar el prorrateo.
+
+---
+
+## Editar/eliminar eventos y descartes por intervalo (Etapa 4+)
+
+- PUT/DELETE en /api/cria/servicios/:id, /partos/:id, /destetes/:id.
+  Tras cada cambio se recalcula automáticamente el estado, ciclo y fechas de la cerda.
+  No se puede eliminar un servicio con parto asociado, ni un parto con destete asociado.
+- /api/informes/hembras-descartar añade dos criterios (param dias_intervalo, default 21):
+  · vacias_sin_servir: hembras vacías cuyo destete fue hace más de N días sin servicio posterior.
+  · intervalo_historico: hembras cuyo intervalo destete-servicio del último ciclo superó N días.
+
+---
+
+## Módulo de tareas y vacunación (Etapa 5)
+
+Calendario automático de tareas de operarios según el estado reproductivo.
+- Catálogo de 24 tareas (22 de Agriness + inmunocastración de ceba 2 dosis).
+- Cada tarea = tipo_animal + evento_ref (nacimiento/servicio/parto/destete) + días.
+- GET /api/tareas/calendario?desde=&hasta= cruza el catálogo con las hembras
+  y calcula qué tarea le toca a cada una y cuándo.
+- POST /api/tareas/aplicar marca una tarea como hecha (no vuelve a aparecer).
+- CRUD del catálogo en /api/tareas/catalogo.
+Nota: Reproductoras (Reemplazo/Gestante/Madre) se calculan por individuo.
+Lechones y Ceba se programan por lote/camada (pendiente de módulo de ceba).
