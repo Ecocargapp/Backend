@@ -28,8 +28,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "costeo_banda.js",
-      "id": "costeo_banda",
-      "community_name": "DB Pool & Costing Routes"
+      "community_name": "DB Pool & Costing Routes",
+      "id": "costeo_banda"
     },
     {
       "label": "calcularCosteoBanda()",
@@ -40,8 +40,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "calcularcosteobanda()",
-      "id": "costeo_banda_calcularcosteobanda",
-      "community_name": "Fattening Cost Calculation"
+      "community_name": "Fattening Cost Calculation",
+      "id": "costeo_banda_calcularcosteobanda"
     },
     {
       "label": "db.js",
@@ -51,8 +51,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "db.js",
-      "id": "db",
-      "community_name": "DB Pool & Costing Routes"
+      "community_name": "DB Pool & Costing Routes",
+      "id": "db"
     },
     {
       "label": "pool",
@@ -62,8 +62,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "pool",
-      "id": "db_pool",
-      "community_name": "DB Pool & Costing Routes"
+      "community_name": "DB Pool & Costing Routes",
+      "id": "db_pool"
     },
     {
       "label": "initdb.js",
@@ -73,8 +73,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "initdb.js",
-      "id": "initdb",
-      "community_name": "DB Initialization Scripts"
+      "community_name": "DB Initialization Scripts",
+      "id": "initdb"
     },
     {
       "label": "__dirname",
@@ -84,8 +84,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "__dirname",
-      "id": "initdb_dirname",
-      "community_name": "DB Initialization Scripts"
+      "community_name": "DB Initialization Scripts",
+      "id": "initdb_dirname"
     },
     {
       "label": "main()",
@@ -96,8 +96,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "main()",
-      "id": "initdb_main",
-      "community_name": "DB Initialization Scripts"
+      "community_name": "DB Initialization Scripts",
+      "id": "initdb_main"
     },
     {
       "label": "initdb_ceba.js",
@@ -107,8 +107,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": "initdb_ceba.js",
-      "id": "initdb_ceba",
-      "community_name": "Fattening DB Init"
+      "community_name": "Fattening DB Init",
+      "id": "initdb_ceba"
     },
     {
       "label": "__dirname",
@@ -118,8 +118,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": "__dirname",
-      "id": "initdb_ceba_dirname",
-      "community_name": "Fattening DB Init"
+      "community_name": "Fattening DB Init",
+      "id": "initdb_ceba_dirname"
     },
     {
       "label": "main()",
@@ -130,8 +130,8 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": "main()",
-      "id": "initdb_ceba_main",
-      "community_name": "Fattening DB Init"
+      "community_name": "Fattening DB Init",
+      "id": "initdb_ceba_main"
     },
     {
       "label": "initdb_costeo.js",
@@ -141,8 +141,8 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "initdb_costeo.js",
-      "id": "initdb_costeo",
-      "community_name": "Costing DB Init"
+      "community_name": "Costing DB Init",
+      "id": "initdb_costeo"
     },
     {
       "label": "__dirname",
@@ -152,8 +152,8 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "__dirname",
-      "id": "initdb_costeo_dirname",
-      "community_name": "Costing DB Init"
+      "community_name": "Costing DB Init",
+      "id": "initdb_costeo_dirname"
     },
     {
       "label": "main()",
@@ -164,8 +164,8 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "main()",
-      "id": "initdb_costeo_main",
-      "community_name": "Costing DB Init"
+      "community_name": "Costing DB Init",
+      "id": "initdb_costeo_main"
     },
     {
       "label": "initdb_cria.js",
@@ -175,8 +175,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "initdb_cria.js",
-      "id": "initdb_cria",
-      "community_name": "DB Initialization Scripts"
+      "community_name": "DB Initialization Scripts",
+      "id": "initdb_cria"
     },
     {
       "label": "__dirname",
@@ -186,8 +186,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "__dirname",
-      "id": "initdb_cria_dirname",
-      "community_name": "DB Initialization Scripts"
+      "community_name": "DB Initialization Scripts",
+      "id": "initdb_cria_dirname"
     },
     {
       "label": "main()",
@@ -198,8 +198,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "main()",
-      "id": "initdb_cria_main",
-      "community_name": "DB Initialization Scripts"
+      "community_name": "DB Initialization Scripts",
+      "id": "initdb_cria_main"
     },
     {
       "label": "initdb_informes.js",
@@ -209,8 +209,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "initdb_informes.js",
-      "id": "initdb_informes",
-      "community_name": "DB Pool & Costing Routes"
+      "community_name": "DB Pool & Costing Routes",
+      "id": "initdb_informes"
     },
     {
       "label": "__dirname",
@@ -220,8 +220,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "__dirname",
-      "id": "initdb_informes_dirname",
-      "community_name": "DB Pool & Costing Routes"
+      "community_name": "DB Pool & Costing Routes",
+      "id": "initdb_informes_dirname"
     },
     {
       "label": "main()",
@@ -232,8 +232,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "main()",
-      "id": "initdb_informes_main",
-      "community_name": "DB Pool & Costing Routes"
+      "community_name": "DB Pool & Costing Routes",
+      "id": "initdb_informes_main"
     },
     {
       "label": "initdb_tareas.js",
@@ -243,8 +243,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "initdb_tareas.js",
-      "id": "initdb_tareas",
-      "community_name": "Task Catalog Init"
+      "community_name": "Task Catalog Init",
+      "id": "initdb_tareas"
     },
     {
       "label": "__dirname",
@@ -254,8 +254,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "__dirname",
-      "id": "initdb_tareas_dirname",
-      "community_name": "Task Catalog Init"
+      "community_name": "Task Catalog Init",
+      "id": "initdb_tareas_dirname"
     },
     {
       "label": "CATALOGO",
@@ -265,8 +265,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "catalogo",
-      "id": "initdb_tareas_catalogo",
-      "community_name": "Task Catalog Init"
+      "community_name": "Task Catalog Init",
+      "id": "initdb_tareas_catalogo"
     },
     {
       "label": "main()",
@@ -277,8 +277,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "main()",
-      "id": "initdb_tareas_main",
-      "community_name": "Task Catalog Init"
+      "community_name": "Task Catalog Init",
+      "id": "initdb_tareas_main"
     },
     {
       "label": "package.json",
@@ -288,8 +288,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "package.json",
-      "id": "package",
-      "community_name": "Package Configuration"
+      "community_name": "Package Configuration",
+      "id": "package"
     },
     {
       "label": "name",
@@ -299,8 +299,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "name",
-      "id": "package_name",
-      "community_name": "Package Configuration"
+      "community_name": "Package Configuration",
+      "id": "package_name"
     },
     {
       "label": "version",
@@ -310,8 +310,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "version",
-      "id": "package_version",
-      "community_name": "Package Configuration"
+      "community_name": "Package Configuration",
+      "id": "package_version"
     },
     {
       "label": "description",
@@ -321,8 +321,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "description",
-      "id": "package_description",
-      "community_name": "Package Configuration"
+      "community_name": "Package Configuration",
+      "id": "package_description"
     },
     {
       "label": "type",
@@ -332,8 +332,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "type",
-      "id": "package_type",
-      "community_name": "Package Configuration"
+      "community_name": "Package Configuration",
+      "id": "package_type"
     },
     {
       "label": "main",
@@ -343,8 +343,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "main",
-      "id": "package_main",
-      "community_name": "Package Configuration"
+      "community_name": "Package Configuration",
+      "id": "package_main"
     },
     {
       "label": "scripts",
@@ -354,8 +354,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "scripts",
-      "id": "package_scripts",
-      "community_name": "Package Configuration"
+      "community_name": "Package Configuration",
+      "id": "package_scripts"
     },
     {
       "label": "start",
@@ -365,8 +365,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "start",
-      "id": "package_scripts_start",
-      "community_name": "Package Configuration"
+      "community_name": "Package Configuration",
+      "id": "package_scripts_start"
     },
     {
       "label": "init-db",
@@ -376,8 +376,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "init-db",
-      "id": "package_scripts_init_db",
-      "community_name": "Package Configuration"
+      "community_name": "Package Configuration",
+      "id": "package_scripts_init_db"
     },
     {
       "label": "dependencies",
@@ -387,8 +387,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "dependencies",
-      "id": "package_dependencies",
-      "community_name": "Node.js Package Dependencies"
+      "community_name": "Node.js Package Dependencies",
+      "id": "package_dependencies"
     },
     {
       "label": "bcryptjs",
@@ -398,8 +398,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "bcryptjs",
-      "id": "package_dependencies_bcryptjs",
-      "community_name": "Node.js Package Dependencies"
+      "community_name": "Node.js Package Dependencies",
+      "id": "package_dependencies_bcryptjs"
     },
     {
       "label": "bcryptjs",
@@ -409,8 +409,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "bcryptjs",
-      "id": "bcryptjs",
-      "community_name": "Node.js Package Dependencies"
+      "community_name": "Node.js Package Dependencies",
+      "id": "bcryptjs"
     },
     {
       "label": "cors",
@@ -420,8 +420,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "cors",
-      "id": "package_dependencies_cors",
-      "community_name": "Node.js Package Dependencies"
+      "community_name": "Node.js Package Dependencies",
+      "id": "package_dependencies_cors"
     },
     {
       "label": "cors",
@@ -431,8 +431,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "cors",
-      "id": "cors",
-      "community_name": "Node.js Package Dependencies"
+      "community_name": "Node.js Package Dependencies",
+      "id": "cors"
     },
     {
       "label": "dotenv",
@@ -442,8 +442,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "dotenv",
-      "id": "package_dependencies_dotenv",
-      "community_name": "Node.js Package Dependencies"
+      "community_name": "Node.js Package Dependencies",
+      "id": "package_dependencies_dotenv"
     },
     {
       "label": "dotenv",
@@ -453,8 +453,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "dotenv",
-      "id": "dotenv",
-      "community_name": "Node.js Package Dependencies"
+      "community_name": "Node.js Package Dependencies",
+      "id": "dotenv"
     },
     {
       "label": "express",
@@ -464,8 +464,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "express",
-      "id": "package_dependencies_express",
-      "community_name": "Node.js Package Dependencies"
+      "community_name": "Node.js Package Dependencies",
+      "id": "package_dependencies_express"
     },
     {
       "label": "express",
@@ -475,8 +475,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "express",
-      "id": "express",
-      "community_name": "Node.js Package Dependencies"
+      "community_name": "Node.js Package Dependencies",
+      "id": "express"
     },
     {
       "label": "jsonwebtoken",
@@ -486,8 +486,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "jsonwebtoken",
-      "id": "package_dependencies_jsonwebtoken",
-      "community_name": "Node.js Package Dependencies"
+      "community_name": "Node.js Package Dependencies",
+      "id": "package_dependencies_jsonwebtoken"
     },
     {
       "label": "jsonwebtoken",
@@ -497,8 +497,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "jsonwebtoken",
-      "id": "jsonwebtoken",
-      "community_name": "Node.js Package Dependencies"
+      "community_name": "Node.js Package Dependencies",
+      "id": "jsonwebtoken"
     },
     {
       "label": "pg",
@@ -508,8 +508,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "pg",
-      "id": "package_dependencies_pg",
-      "community_name": "Node.js Package Dependencies"
+      "community_name": "Node.js Package Dependencies",
+      "id": "package_dependencies_pg"
     },
     {
       "label": "pg",
@@ -519,8 +519,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "pg",
-      "id": "pg",
-      "community_name": "Node.js Package Dependencies"
+      "community_name": "Node.js Package Dependencies",
+      "id": "pg"
     },
     {
       "label": "rutas_ceba.js",
@@ -530,8 +530,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "rutas_ceba.js",
-      "id": "rutas_ceba",
-      "community_name": "Fattening Cost Calculation"
+      "community_name": "Fattening Cost Calculation",
+      "id": "rutas_ceba"
     },
     {
       "label": "router",
@@ -541,8 +541,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "router",
-      "id": "rutas_ceba_router",
-      "community_name": "Fattening Cost Calculation"
+      "community_name": "Fattening Cost Calculation",
+      "id": "rutas_ceba_router"
     },
     {
       "label": "calcularInventario()",
@@ -553,8 +553,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "calcularinventario()",
-      "id": "rutas_ceba_calcularinventario",
-      "community_name": "Fattening Cost Calculation"
+      "community_name": "Fattening Cost Calculation",
+      "id": "rutas_ceba_calcularinventario"
     },
     {
       "label": "calcularValoresLote()",
@@ -565,8 +565,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "calcularvaloreslote()",
-      "id": "rutas_ceba_calcularvaloreslote",
-      "community_name": "Fattening Cost Calculation"
+      "community_name": "Fattening Cost Calculation",
+      "id": "rutas_ceba_calcularvaloreslote"
     },
     {
       "label": "rutas_costeo.js",
@@ -576,8 +576,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "rutas_costeo.js",
-      "id": "rutas_costeo",
-      "community_name": "DB Pool & Costing Routes"
+      "community_name": "DB Pool & Costing Routes",
+      "id": "rutas_costeo"
     },
     {
       "label": "router",
@@ -587,8 +587,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "router",
-      "id": "rutas_costeo_router",
-      "community_name": "Express Routing & Auth Middleware"
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "rutas_costeo_router"
     },
     {
       "label": "rutas_cria.js",
@@ -598,8 +598,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "rutas_cria.js",
-      "id": "rutas_cria",
-      "community_name": "Breeding Routes Logic"
+      "community_name": "Breeding Routes Logic",
+      "id": "rutas_cria"
     },
     {
       "label": "router",
@@ -609,8 +609,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "router",
-      "id": "rutas_cria_router",
-      "community_name": "Breeding Routes Logic"
+      "community_name": "Breeding Routes Logic",
+      "id": "rutas_cria_router"
     },
     {
       "label": "fechaMas()",
@@ -621,8 +621,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "fechamas()",
-      "id": "rutas_cria_fechamas",
-      "community_name": "Breeding Routes Logic"
+      "community_name": "Breeding Routes Logic",
+      "id": "rutas_cria_fechamas"
     },
     {
       "label": "recalcularCerda()",
@@ -633,8 +633,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "recalcularcerda()",
-      "id": "rutas_cria_recalcularcerda",
-      "community_name": "Breeding Routes Logic"
+      "community_name": "Breeding Routes Logic",
+      "id": "rutas_cria_recalcularcerda"
     },
     {
       "label": "rutas_informes.js",
@@ -644,8 +644,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "rutas_informes.js",
-      "id": "rutas_informes",
-      "community_name": "Express Routing & Auth Middleware"
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "rutas_informes"
     },
     {
       "label": "router",
@@ -655,8 +655,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "router",
-      "id": "rutas_informes_router",
-      "community_name": "Express Routing & Auth Middleware"
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "rutas_informes_router"
     },
     {
       "label": "rango()",
@@ -667,8 +667,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "rango()",
-      "id": "rutas_informes_rango",
-      "community_name": "Express Routing & Auth Middleware"
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "rutas_informes_rango"
     },
     {
       "label": "rutas_tareas.js",
@@ -678,8 +678,8 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "rutas_tareas.js",
-      "id": "rutas_tareas",
-      "community_name": "Task Routes Logic"
+      "community_name": "Task Routes Logic",
+      "id": "rutas_tareas"
     },
     {
       "label": "router",
@@ -689,8 +689,8 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "router",
-      "id": "rutas_tareas_router",
-      "community_name": "Task Routes Logic"
+      "community_name": "Task Routes Logic",
+      "id": "rutas_tareas_router"
     },
     {
       "label": "fechaMas()",
@@ -701,8 +701,8 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "fechamas()",
-      "id": "rutas_tareas_fechamas",
-      "community_name": "Task Routes Logic"
+      "community_name": "Task Routes Logic",
+      "id": "rutas_tareas_fechamas"
     },
     {
       "label": "schema.sql",
@@ -712,8 +712,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "schema.sql",
-      "id": "schema",
-      "community_name": "Inventory Schema"
+      "community_name": "Inventory Schema",
+      "id": "schema"
     },
     {
       "label": "usuarios",
@@ -723,8 +723,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "usuarios",
-      "id": "schema_usuarios",
-      "community_name": "Breeding & Sow Database Schema"
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_usuarios"
     },
     {
       "label": "ubicaciones",
@@ -734,8 +734,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "ubicaciones",
-      "id": "schema_ubicaciones",
-      "community_name": "Inventory Schema"
+      "community_name": "Inventory Schema",
+      "id": "schema_ubicaciones"
     },
     {
       "label": "items",
@@ -745,8 +745,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "items",
-      "id": "schema_items",
-      "community_name": "Inventory Schema"
+      "community_name": "Inventory Schema",
+      "id": "schema_items"
     },
     {
       "label": "inventario",
@@ -756,8 +756,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "inventario",
-      "id": "schema_inventario",
-      "community_name": "Inventory Schema"
+      "community_name": "Inventory Schema",
+      "id": "schema_inventario"
     },
     {
       "label": "movimientos",
@@ -767,8 +767,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "movimientos",
-      "id": "schema_movimientos",
-      "community_name": "Inventory Schema"
+      "community_name": "Inventory Schema",
+      "id": "schema_movimientos"
     },
     {
       "label": "schema_ceba.sql",
@@ -778,8 +778,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "schema_ceba.sql",
-      "id": "schema_ceba",
-      "community_name": "Fattening & Band Database Schema"
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_ceba"
     },
     {
       "label": "granjas_ceba",
@@ -789,8 +789,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "granjas_ceba",
-      "id": "schema_ceba_granjas_ceba",
-      "community_name": "Fattening & Band Database Schema"
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_ceba_granjas_ceba"
     },
     {
       "label": "movimientos_ceba",
@@ -800,8 +800,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "movimientos_ceba",
-      "id": "schema_ceba_movimientos_ceba",
-      "community_name": "Fattening & Band Database Schema"
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_ceba_movimientos_ceba"
     },
     {
       "label": "consumo_ceba",
@@ -811,8 +811,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "consumo_ceba",
-      "id": "schema_ceba_consumo_ceba",
-      "community_name": "Fattening & Band Database Schema"
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_ceba_consumo_ceba"
     },
     {
       "label": "liquidaciones_ceba",
@@ -822,8 +822,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "liquidaciones_ceba",
-      "id": "schema_ceba_liquidaciones_ceba",
-      "community_name": "Fattening & Band Database Schema"
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_ceba_liquidaciones_ceba"
     },
     {
       "label": "lotes_destete",
@@ -833,8 +833,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "lotes_destete",
-      "id": "schema_ceba_lotes_destete",
-      "community_name": "Fattening & Band Database Schema"
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_ceba_lotes_destete"
     },
     {
       "label": "schema_costeo.sql",
@@ -844,8 +844,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "schema_costeo.sql",
-      "id": "schema_costeo",
-      "community_name": "Breeding & Sow Database Schema"
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_costeo"
     },
     {
       "label": "consumo_diario",
@@ -855,8 +855,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "consumo_diario",
-      "id": "schema_costeo_consumo_diario",
-      "community_name": "Breeding & Sow Database Schema"
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_costeo_consumo_diario"
     },
     {
       "label": "lactancia_banda",
@@ -866,8 +866,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "lactancia_banda",
-      "id": "schema_costeo_lactancia_banda",
-      "community_name": "Breeding & Sow Database Schema"
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_costeo_lactancia_banda"
     },
     {
       "label": "schema_cria.sql",
@@ -877,8 +877,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "schema_cria.sql",
-      "id": "schema_cria",
-      "community_name": "Breeding & Sow Database Schema"
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_cria"
     },
     {
       "label": "razas",
@@ -888,8 +888,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "razas",
-      "id": "schema_cria_razas",
-      "community_name": "Breeding & Sow Database Schema"
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_cria_razas"
     },
     {
       "label": "cerdas",
@@ -899,8 +899,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "cerdas",
-      "id": "schema_cria_cerdas",
-      "community_name": "Breeding & Sow Database Schema"
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_cria_cerdas"
     },
     {
       "label": "servicios",
@@ -910,8 +910,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "servicios",
-      "id": "schema_cria_servicios",
-      "community_name": "Breeding & Sow Database Schema"
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_cria_servicios"
     },
     {
       "label": "diagnosticos",
@@ -921,8 +921,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "diagnosticos",
-      "id": "schema_cria_diagnosticos",
-      "community_name": "Breeding & Sow Database Schema"
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_cria_diagnosticos"
     },
     {
       "label": "partos",
@@ -932,8 +932,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "partos",
-      "id": "schema_cria_partos",
-      "community_name": "Breeding & Sow Database Schema"
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_cria_partos"
     },
     {
       "label": "destetes",
@@ -943,8 +943,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "destetes",
-      "id": "schema_cria_destetes",
-      "community_name": "Breeding & Sow Database Schema"
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_cria_destetes"
     },
     {
       "label": "salidas_cerda",
@@ -954,8 +954,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "salidas_cerda",
-      "id": "schema_cria_salidas_cerda",
-      "community_name": "Breeding & Sow Database Schema"
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_cria_salidas_cerda"
     },
     {
       "label": "schema_informes.sql",
@@ -965,8 +965,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "schema_informes.sql",
-      "id": "schema_informes",
-      "community_name": "Fattening & Band Database Schema"
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_informes"
     },
     {
       "label": "bandas",
@@ -976,8 +976,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "bandas",
-      "id": "schema_informes_bandas",
-      "community_name": "Fattening & Band Database Schema"
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_informes_bandas"
     },
     {
       "label": "consumos_alimento",
@@ -987,8 +987,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "consumos_alimento",
-      "id": "schema_informes_consumos_alimento",
-      "community_name": "Fattening & Band Database Schema"
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_informes_consumos_alimento"
     },
     {
       "label": "schema_tareas.sql",
@@ -998,8 +998,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "schema_tareas.sql",
-      "id": "schema_tareas",
-      "community_name": "Breeding & Sow Database Schema"
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_tareas"
     },
     {
       "label": "tareas_catalogo",
@@ -1009,8 +1009,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "tareas_catalogo",
-      "id": "schema_tareas_tareas_catalogo",
-      "community_name": "Breeding & Sow Database Schema"
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_tareas_tareas_catalogo"
     },
     {
       "label": "tareas_aplicadas",
@@ -1020,8 +1020,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "tareas_aplicadas",
-      "id": "schema_tareas_tareas_aplicadas",
-      "community_name": "Breeding & Sow Database Schema"
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_tareas_tareas_aplicadas"
     },
     {
       "label": "server.js",
@@ -1031,8 +1031,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "server.js",
-      "id": "server",
-      "community_name": "Express Routing & Auth Middleware"
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "server"
     },
     {
       "label": "app",
@@ -1042,8 +1042,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "app",
-      "id": "server_app",
-      "community_name": "Express Routing & Auth Middleware"
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "server_app"
     },
     {
       "label": "origenesPermitidos",
@@ -1053,8 +1053,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "origenespermitidos",
-      "id": "server_origenespermitidos",
-      "community_name": "Express Routing & Auth Middleware"
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "server_origenespermitidos"
     },
     {
       "label": "requiereLogin()",
@@ -1065,8 +1065,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "requierelogin()",
-      "id": "server_requierelogin",
-      "community_name": "Express Routing & Auth Middleware"
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "server_requierelogin"
     },
     {
       "label": "requiereAdmin()",
@@ -1077,8 +1077,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "requiereadmin()",
-      "id": "server_requiereadmin",
-      "community_name": "Express Routing & Auth Middleware"
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "server_requiereadmin"
     },
     {
       "label": "AgroSoft Backend",
@@ -1091,8 +1091,9 @@
       "contributor": null,
       "community": 0,
       "norm_label": "agrosoft backend",
-      "id": "readme_agrosoft_backend",
-      "community_name": "AgroSoft Pig Farm Backend"
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_agrosoft_backend"
     },
     {
       "label": "Authentication Module (JWT + bcrypt)",
@@ -1105,8 +1106,9 @@
       "contributor": null,
       "community": 0,
       "norm_label": "authentication module (jwt + bcrypt)",
-      "id": "readme_auth_module",
-      "community_name": "AgroSoft Pig Farm Backend"
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_auth_module"
     },
     {
       "label": "User Administration Module",
@@ -1119,8 +1121,9 @@
       "contributor": null,
       "community": 0,
       "norm_label": "user administration module",
-      "id": "readme_user_admin_module",
-      "community_name": "AgroSoft Pig Farm Backend"
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_user_admin_module"
     },
     {
       "label": "Granja de Cr\u00eda Module (Reproductive Cycle)",
@@ -1133,8 +1136,9 @@
       "contributor": null,
       "community": 0,
       "norm_label": "granja de cria module (reproductive cycle)",
-      "id": "readme_cria_module",
-      "community_name": "AgroSoft Pig Farm Backend"
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_cria_module"
     },
     {
       "label": "Informes de Cr\u00eda Module (Reports)",
@@ -1147,8 +1151,9 @@
       "contributor": null,
       "community": 0,
       "norm_label": "informes de cria module (reports)",
-      "id": "readme_informes_module",
-      "community_name": "AgroSoft Pig Farm Backend"
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_informes_module"
     },
     {
       "label": "Costeo por Banda Module (Band Costing)",
@@ -1161,8 +1166,9 @@
       "contributor": null,
       "community": 0,
       "norm_label": "costeo por banda module (band costing)",
-      "id": "readme_costeo_module",
-      "community_name": "AgroSoft Pig Farm Backend"
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_costeo_module"
     },
     {
       "label": "Tareas y Vacunaci\u00f3n Module (Tasks & Vaccination)",
@@ -1175,8 +1181,9 @@
       "contributor": null,
       "community": 0,
       "norm_label": "tareas y vacunacion module (tasks & vaccination)",
-      "id": "readme_tareas_module",
-      "community_name": "AgroSoft Pig Farm Backend"
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_tareas_module"
     },
     {
       "label": "Ceba / Engorde Module (Fattening)",
@@ -1189,8 +1196,9 @@
       "contributor": null,
       "community": 0,
       "norm_label": "ceba / engorde module (fattening)",
-      "id": "readme_ceba_module",
-      "community_name": "AgroSoft Pig Farm Backend"
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_ceba_module"
     },
     {
       "label": "Integraci\u00f3n Cr\u00eda\u2192Ceba y Ventas Parciales",
@@ -1203,8 +1211,9 @@
       "contributor": null,
       "community": 0,
       "norm_label": "integracion cria\u2192ceba y ventas parciales",
-      "id": "readme_integracion_module",
-      "community_name": "AgroSoft Pig Farm Backend"
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_integracion_module"
     },
     {
       "label": "PostgreSQL Database",
@@ -1217,8 +1226,9 @@
       "contributor": null,
       "community": 0,
       "norm_label": "postgresql database",
-      "id": "readme_postgresql",
-      "community_name": "AgroSoft Pig Farm Backend"
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_postgresql"
     },
     {
       "label": "Node.js + Express Framework",
@@ -1231,8 +1241,9 @@
       "contributor": null,
       "community": 0,
       "norm_label": "node.js + express framework",
-      "id": "readme_nodejs_express",
-      "community_name": "AgroSoft Pig Farm Backend"
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_nodejs_express"
     },
     {
       "label": "JWT (JSON Web Token) Sessions",
@@ -1245,8 +1256,9 @@
       "contributor": null,
       "community": 0,
       "norm_label": "jwt (json web token) sessions",
-      "id": "readme_jwt",
-      "community_name": "AgroSoft Pig Farm Backend"
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_jwt"
     },
     {
       "label": "bcrypt Password Hashing",
@@ -1259,8 +1271,9 @@
       "contributor": null,
       "community": 0,
       "norm_label": "bcrypt password hashing",
-      "id": "readme_bcrypt",
-      "community_name": "AgroSoft Pig Farm Backend"
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_bcrypt"
     },
     {
       "label": "pm2 Process Manager",
@@ -1273,8 +1286,9 @@
       "contributor": null,
       "community": 0,
       "norm_label": "pm2 process manager",
-      "id": "readme_pm2",
-      "community_name": "AgroSoft Pig Farm Backend"
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_pm2"
     },
     {
       "label": "EC2 Deployment",
@@ -1287,8 +1301,9 @@
       "contributor": null,
       "community": 0,
       "norm_label": "ec2 deployment",
-      "id": "readme_ec2_deployment",
-      "community_name": "AgroSoft Pig Farm Backend"
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_ec2_deployment"
     },
     {
       "label": "Lotes Destete (Weaned Lots)",
@@ -1301,8 +1316,9 @@
       "contributor": null,
       "community": 0,
       "norm_label": "lotes destete (weaned lots)",
-      "id": "readme_lotes_destete",
-      "community_name": "AgroSoft Pig Farm Backend"
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_lotes_destete"
     }
   ],
   "links": [
@@ -3034,6 +3050,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_auth_module"
     },
@@ -3044,6 +3061,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_ceba_module"
     },
@@ -3054,6 +3072,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_costeo_module"
     },
@@ -3064,6 +3083,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_cria_module"
     },
@@ -3074,6 +3094,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_informes_module"
     },
@@ -3084,6 +3105,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_integracion_module"
     },
@@ -3094,6 +3116,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_nodejs_express"
     },
@@ -3104,6 +3127,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_postgresql"
     },
@@ -3114,6 +3138,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_tareas_module"
     },
@@ -3124,6 +3149,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_user_admin_module"
     },
@@ -3134,6 +3160,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_auth_module",
       "target": "readme_bcrypt"
     },
@@ -3144,6 +3171,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_auth_module",
       "target": "readme_jwt"
     },
@@ -3154,6 +3182,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 0.9,
+      "_origin": "semantic",
       "source": "readme_costeo_module",
       "target": "readme_cria_module"
     },
@@ -3164,6 +3193,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 0.85,
+      "_origin": "semantic",
       "source": "readme_informes_module",
       "target": "readme_cria_module"
     },
@@ -3174,6 +3204,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_integracion_module",
       "target": "readme_cria_module"
     },
@@ -3184,6 +3215,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 0.95,
+      "_origin": "semantic",
       "source": "readme_tareas_module",
       "target": "readme_cria_module"
     },
@@ -3194,6 +3226,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_integracion_module",
       "target": "readme_ceba_module"
     },
@@ -3204,6 +3237,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 0.95,
+      "_origin": "semantic",
       "source": "readme_lotes_destete",
       "target": "readme_ceba_module"
     },
@@ -3214,6 +3248,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_integracion_module",
       "target": "readme_lotes_destete"
     },
@@ -3224,6 +3259,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_ec2_deployment",
       "target": "readme_postgresql"
     },
@@ -3234,6 +3270,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_ec2_deployment",
       "target": "readme_pm2"
     }
@@ -3254,5 +3291,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "0a93d48be9ce85cd3bea2b992bd980ca7198a918"
+  "built_at_commit": "039abdd55e5484538adf3ec92baa278f723ccdd0"
 }

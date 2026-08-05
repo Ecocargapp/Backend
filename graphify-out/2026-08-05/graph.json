@@ -26,9 +26,10 @@
       "source_file": "costeo_banda.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "costeo_banda",
       "community": 7,
-      "norm_label": "costeo_banda.js"
+      "norm_label": "costeo_banda.js",
+      "community_name": "DB Pool & Costing Routes",
+      "id": "costeo_banda"
     },
     {
       "label": "calcularCosteoBanda()",
@@ -37,9 +38,10 @@
       "source_location": "L9",
       "_callable": true,
       "_origin": "ast",
-      "id": "costeo_banda_calcularcosteobanda",
       "community": 7,
-      "norm_label": "calcularcosteobanda()"
+      "norm_label": "calcularcosteobanda()",
+      "community_name": "Fattening Cost Calculation",
+      "id": "costeo_banda_calcularcosteobanda"
     },
     {
       "label": "db.js",
@@ -47,9 +49,10 @@
       "source_file": "db.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "db",
       "community": 3,
-      "norm_label": "db.js"
+      "norm_label": "db.js",
+      "community_name": "DB Pool & Costing Routes",
+      "id": "db"
     },
     {
       "label": "pool",
@@ -57,9 +60,10 @@
       "source_file": "db.js",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "db_pool",
       "community": 3,
-      "norm_label": "pool"
+      "norm_label": "pool",
+      "community_name": "DB Pool & Costing Routes",
+      "id": "db_pool"
     },
     {
       "label": "initdb.js",
@@ -67,9 +71,10 @@
       "source_file": "initdb.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "initdb",
       "community": 8,
-      "norm_label": "initdb.js"
+      "norm_label": "initdb.js",
+      "community_name": "DB Initialization Scripts",
+      "id": "initdb"
     },
     {
       "label": "__dirname",
@@ -77,9 +82,10 @@
       "source_file": "initdb.js",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "initdb_dirname",
       "community": 8,
-      "norm_label": "__dirname"
+      "norm_label": "__dirname",
+      "community_name": "DB Initialization Scripts",
+      "id": "initdb_dirname"
     },
     {
       "label": "main()",
@@ -88,9 +94,10 @@
       "source_location": "L9",
       "_callable": true,
       "_origin": "ast",
-      "id": "initdb_main",
       "community": 8,
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "community_name": "DB Initialization Scripts",
+      "id": "initdb_main"
     },
     {
       "label": "initdb_ceba.js",
@@ -98,9 +105,10 @@
       "source_file": "initdb_ceba.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "initdb_ceba",
       "community": 3,
-      "norm_label": "initdb_ceba.js"
+      "norm_label": "initdb_ceba.js",
+      "community_name": "Fattening DB Init",
+      "id": "initdb_ceba"
     },
     {
       "label": "__dirname",
@@ -108,9 +116,10 @@
       "source_file": "initdb_ceba.js",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "initdb_ceba_dirname",
       "community": 3,
-      "norm_label": "__dirname"
+      "norm_label": "__dirname",
+      "community_name": "Fattening DB Init",
+      "id": "initdb_ceba_dirname"
     },
     {
       "label": "main()",
@@ -119,9 +128,10 @@
       "source_location": "L8",
       "_callable": true,
       "_origin": "ast",
-      "id": "initdb_ceba_main",
       "community": 3,
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "community_name": "Fattening DB Init",
+      "id": "initdb_ceba_main"
     },
     {
       "label": "initdb_costeo.js",
@@ -129,9 +139,10 @@
       "source_file": "initdb_costeo.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "initdb_costeo",
       "community": 3,
-      "norm_label": "initdb_costeo.js"
+      "norm_label": "initdb_costeo.js",
+      "community_name": "Costing DB Init",
+      "id": "initdb_costeo"
     },
     {
       "label": "__dirname",
@@ -139,9 +150,10 @@
       "source_file": "initdb_costeo.js",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "initdb_costeo_dirname",
       "community": 3,
-      "norm_label": "__dirname"
+      "norm_label": "__dirname",
+      "community_name": "Costing DB Init",
+      "id": "initdb_costeo_dirname"
     },
     {
       "label": "main()",
@@ -150,9 +162,10 @@
       "source_location": "L8",
       "_callable": true,
       "_origin": "ast",
-      "id": "initdb_costeo_main",
       "community": 3,
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "community_name": "Costing DB Init",
+      "id": "initdb_costeo_main"
     },
     {
       "label": "initdb_cria.js",
@@ -160,9 +173,10 @@
       "source_file": "initdb_cria.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "initdb_cria",
       "community": 8,
-      "norm_label": "initdb_cria.js"
+      "norm_label": "initdb_cria.js",
+      "community_name": "DB Initialization Scripts",
+      "id": "initdb_cria"
     },
     {
       "label": "__dirname",
@@ -170,9 +184,10 @@
       "source_file": "initdb_cria.js",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "initdb_cria_dirname",
       "community": 8,
-      "norm_label": "__dirname"
+      "norm_label": "__dirname",
+      "community_name": "DB Initialization Scripts",
+      "id": "initdb_cria_dirname"
     },
     {
       "label": "main()",
@@ -181,9 +196,10 @@
       "source_location": "L8",
       "_callable": true,
       "_origin": "ast",
-      "id": "initdb_cria_main",
       "community": 8,
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "community_name": "DB Initialization Scripts",
+      "id": "initdb_cria_main"
     },
     {
       "label": "initdb_informes.js",
@@ -191,9 +207,10 @@
       "source_file": "initdb_informes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "initdb_informes",
       "community": 3,
-      "norm_label": "initdb_informes.js"
+      "norm_label": "initdb_informes.js",
+      "community_name": "DB Pool & Costing Routes",
+      "id": "initdb_informes"
     },
     {
       "label": "__dirname",
@@ -201,9 +218,10 @@
       "source_file": "initdb_informes.js",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "initdb_informes_dirname",
       "community": 3,
-      "norm_label": "__dirname"
+      "norm_label": "__dirname",
+      "community_name": "DB Pool & Costing Routes",
+      "id": "initdb_informes_dirname"
     },
     {
       "label": "main()",
@@ -212,9 +230,10 @@
       "source_location": "L8",
       "_callable": true,
       "_origin": "ast",
-      "id": "initdb_informes_main",
       "community": 3,
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "community_name": "DB Pool & Costing Routes",
+      "id": "initdb_informes_main"
     },
     {
       "label": "initdb_tareas.js",
@@ -222,9 +241,10 @@
       "source_file": "initdb_tareas.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "initdb_tareas",
       "community": 10,
-      "norm_label": "initdb_tareas.js"
+      "norm_label": "initdb_tareas.js",
+      "community_name": "Task Catalog Init",
+      "id": "initdb_tareas"
     },
     {
       "label": "__dirname",
@@ -232,9 +252,10 @@
       "source_file": "initdb_tareas.js",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "initdb_tareas_dirname",
       "community": 10,
-      "norm_label": "__dirname"
+      "norm_label": "__dirname",
+      "community_name": "Task Catalog Init",
+      "id": "initdb_tareas_dirname"
     },
     {
       "label": "CATALOGO",
@@ -242,9 +263,10 @@
       "source_file": "initdb_tareas.js",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "initdb_tareas_catalogo",
       "community": 10,
-      "norm_label": "catalogo"
+      "norm_label": "catalogo",
+      "community_name": "Task Catalog Init",
+      "id": "initdb_tareas_catalogo"
     },
     {
       "label": "main()",
@@ -253,9 +275,10 @@
       "source_location": "L41",
       "_callable": true,
       "_origin": "ast",
-      "id": "initdb_tareas_main",
       "community": 10,
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "community_name": "Task Catalog Init",
+      "id": "initdb_tareas_main"
     },
     {
       "label": "package.json",
@@ -263,9 +286,10 @@
       "source_file": "package.json",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "package",
       "community": 5,
-      "norm_label": "package.json"
+      "norm_label": "package.json",
+      "community_name": "Package Configuration",
+      "id": "package"
     },
     {
       "label": "name",
@@ -273,9 +297,10 @@
       "source_file": "package.json",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "package_name",
       "community": 5,
-      "norm_label": "name"
+      "norm_label": "name",
+      "community_name": "Package Configuration",
+      "id": "package_name"
     },
     {
       "label": "version",
@@ -283,9 +308,10 @@
       "source_file": "package.json",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "package_version",
       "community": 5,
-      "norm_label": "version"
+      "norm_label": "version",
+      "community_name": "Package Configuration",
+      "id": "package_version"
     },
     {
       "label": "description",
@@ -293,9 +319,10 @@
       "source_file": "package.json",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "package_description",
       "community": 5,
-      "norm_label": "description"
+      "norm_label": "description",
+      "community_name": "Package Configuration",
+      "id": "package_description"
     },
     {
       "label": "type",
@@ -303,9 +330,10 @@
       "source_file": "package.json",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "package_type",
       "community": 5,
-      "norm_label": "type"
+      "norm_label": "type",
+      "community_name": "Package Configuration",
+      "id": "package_type"
     },
     {
       "label": "main",
@@ -313,9 +341,10 @@
       "source_file": "package.json",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "package_main",
       "community": 5,
-      "norm_label": "main"
+      "norm_label": "main",
+      "community_name": "Package Configuration",
+      "id": "package_main"
     },
     {
       "label": "scripts",
@@ -323,9 +352,10 @@
       "source_file": "package.json",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "package_scripts",
       "community": 5,
-      "norm_label": "scripts"
+      "norm_label": "scripts",
+      "community_name": "Package Configuration",
+      "id": "package_scripts"
     },
     {
       "label": "start",
@@ -333,9 +363,10 @@
       "source_file": "package.json",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "package_scripts_start",
       "community": 5,
-      "norm_label": "start"
+      "norm_label": "start",
+      "community_name": "Package Configuration",
+      "id": "package_scripts_start"
     },
     {
       "label": "init-db",
@@ -343,9 +374,10 @@
       "source_file": "package.json",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "package_scripts_init_db",
       "community": 5,
-      "norm_label": "init-db"
+      "norm_label": "init-db",
+      "community_name": "Package Configuration",
+      "id": "package_scripts_init_db"
     },
     {
       "label": "dependencies",
@@ -353,9 +385,10 @@
       "source_file": "package.json",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "package_dependencies",
       "community": 2,
-      "norm_label": "dependencies"
+      "norm_label": "dependencies",
+      "community_name": "Node.js Package Dependencies",
+      "id": "package_dependencies"
     },
     {
       "label": "bcryptjs",
@@ -363,9 +396,10 @@
       "source_file": "package.json",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "package_dependencies_bcryptjs",
       "community": 2,
-      "norm_label": "bcryptjs"
+      "norm_label": "bcryptjs",
+      "community_name": "Node.js Package Dependencies",
+      "id": "package_dependencies_bcryptjs"
     },
     {
       "label": "bcryptjs",
@@ -373,9 +407,10 @@
       "source_file": "package.json",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "bcryptjs",
       "community": 2,
-      "norm_label": "bcryptjs"
+      "norm_label": "bcryptjs",
+      "community_name": "Node.js Package Dependencies",
+      "id": "bcryptjs"
     },
     {
       "label": "cors",
@@ -383,9 +418,10 @@
       "source_file": "package.json",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "package_dependencies_cors",
       "community": 2,
-      "norm_label": "cors"
+      "norm_label": "cors",
+      "community_name": "Node.js Package Dependencies",
+      "id": "package_dependencies_cors"
     },
     {
       "label": "cors",
@@ -393,9 +429,10 @@
       "source_file": "package.json",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "cors",
       "community": 2,
-      "norm_label": "cors"
+      "norm_label": "cors",
+      "community_name": "Node.js Package Dependencies",
+      "id": "cors"
     },
     {
       "label": "dotenv",
@@ -403,9 +440,10 @@
       "source_file": "package.json",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "package_dependencies_dotenv",
       "community": 2,
-      "norm_label": "dotenv"
+      "norm_label": "dotenv",
+      "community_name": "Node.js Package Dependencies",
+      "id": "package_dependencies_dotenv"
     },
     {
       "label": "dotenv",
@@ -413,9 +451,10 @@
       "source_file": "package.json",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "dotenv",
       "community": 2,
-      "norm_label": "dotenv"
+      "norm_label": "dotenv",
+      "community_name": "Node.js Package Dependencies",
+      "id": "dotenv"
     },
     {
       "label": "express",
@@ -423,9 +462,10 @@
       "source_file": "package.json",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "package_dependencies_express",
       "community": 2,
-      "norm_label": "express"
+      "norm_label": "express",
+      "community_name": "Node.js Package Dependencies",
+      "id": "package_dependencies_express"
     },
     {
       "label": "express",
@@ -433,9 +473,10 @@
       "source_file": "package.json",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "express",
       "community": 2,
-      "norm_label": "express"
+      "norm_label": "express",
+      "community_name": "Node.js Package Dependencies",
+      "id": "express"
     },
     {
       "label": "jsonwebtoken",
@@ -443,9 +484,10 @@
       "source_file": "package.json",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "package_dependencies_jsonwebtoken",
       "community": 2,
-      "norm_label": "jsonwebtoken"
+      "norm_label": "jsonwebtoken",
+      "community_name": "Node.js Package Dependencies",
+      "id": "package_dependencies_jsonwebtoken"
     },
     {
       "label": "jsonwebtoken",
@@ -453,9 +495,10 @@
       "source_file": "package.json",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "jsonwebtoken",
       "community": 2,
-      "norm_label": "jsonwebtoken"
+      "norm_label": "jsonwebtoken",
+      "community_name": "Node.js Package Dependencies",
+      "id": "jsonwebtoken"
     },
     {
       "label": "pg",
@@ -463,9 +506,10 @@
       "source_file": "package.json",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "package_dependencies_pg",
       "community": 2,
-      "norm_label": "pg"
+      "norm_label": "pg",
+      "community_name": "Node.js Package Dependencies",
+      "id": "package_dependencies_pg"
     },
     {
       "label": "pg",
@@ -473,9 +517,10 @@
       "source_file": "package.json",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "pg",
       "community": 2,
-      "norm_label": "pg"
+      "norm_label": "pg",
+      "community_name": "Node.js Package Dependencies",
+      "id": "pg"
     },
     {
       "label": "rutas_ceba.js",
@@ -483,9 +528,10 @@
       "source_file": "rutas_ceba.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "rutas_ceba",
       "community": 7,
-      "norm_label": "rutas_ceba.js"
+      "norm_label": "rutas_ceba.js",
+      "community_name": "Fattening Cost Calculation",
+      "id": "rutas_ceba"
     },
     {
       "label": "router",
@@ -493,9 +539,10 @@
       "source_file": "rutas_ceba.js",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "rutas_ceba_router",
       "community": 7,
-      "norm_label": "router"
+      "norm_label": "router",
+      "community_name": "Fattening Cost Calculation",
+      "id": "rutas_ceba_router"
     },
     {
       "label": "calcularInventario()",
@@ -504,9 +551,10 @@
       "source_location": "L29",
       "_callable": true,
       "_origin": "ast",
-      "id": "rutas_ceba_calcularinventario",
       "community": 7,
-      "norm_label": "calcularinventario()"
+      "norm_label": "calcularinventario()",
+      "community_name": "Fattening Cost Calculation",
+      "id": "rutas_ceba_calcularinventario"
     },
     {
       "label": "calcularValoresLote()",
@@ -515,9 +563,10 @@
       "source_location": "L293",
       "_callable": true,
       "_origin": "ast",
-      "id": "rutas_ceba_calcularvaloreslote",
       "community": 7,
-      "norm_label": "calcularvaloreslote()"
+      "norm_label": "calcularvaloreslote()",
+      "community_name": "Fattening Cost Calculation",
+      "id": "rutas_ceba_calcularvaloreslote"
     },
     {
       "label": "rutas_costeo.js",
@@ -525,9 +574,10 @@
       "source_file": "rutas_costeo.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "rutas_costeo",
       "community": 7,
-      "norm_label": "rutas_costeo.js"
+      "norm_label": "rutas_costeo.js",
+      "community_name": "DB Pool & Costing Routes",
+      "id": "rutas_costeo"
     },
     {
       "label": "router",
@@ -535,9 +585,10 @@
       "source_file": "rutas_costeo.js",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "rutas_costeo_router",
       "community": 7,
-      "norm_label": "router"
+      "norm_label": "router",
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "rutas_costeo_router"
     },
     {
       "label": "rutas_cria.js",
@@ -545,9 +596,10 @@
       "source_file": "rutas_cria.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "rutas_cria",
       "community": 11,
-      "norm_label": "rutas_cria.js"
+      "norm_label": "rutas_cria.js",
+      "community_name": "Breeding Routes Logic",
+      "id": "rutas_cria"
     },
     {
       "label": "router",
@@ -555,9 +607,10 @@
       "source_file": "rutas_cria.js",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "rutas_cria_router",
       "community": 11,
-      "norm_label": "router"
+      "norm_label": "router",
+      "community_name": "Breeding Routes Logic",
+      "id": "rutas_cria_router"
     },
     {
       "label": "fechaMas()",
@@ -566,9 +619,10 @@
       "source_location": "L13",
       "_callable": true,
       "_origin": "ast",
-      "id": "rutas_cria_fechamas",
       "community": 11,
-      "norm_label": "fechamas()"
+      "norm_label": "fechamas()",
+      "community_name": "Breeding Routes Logic",
+      "id": "rutas_cria_fechamas"
     },
     {
       "label": "recalcularCerda()",
@@ -577,9 +631,10 @@
       "source_location": "L238",
       "_callable": true,
       "_origin": "ast",
-      "id": "rutas_cria_recalcularcerda",
       "community": 11,
-      "norm_label": "recalcularcerda()"
+      "norm_label": "recalcularcerda()",
+      "community_name": "Breeding Routes Logic",
+      "id": "rutas_cria_recalcularcerda"
     },
     {
       "label": "rutas_informes.js",
@@ -587,9 +642,10 @@
       "source_file": "rutas_informes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "rutas_informes",
       "community": 4,
-      "norm_label": "rutas_informes.js"
+      "norm_label": "rutas_informes.js",
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "rutas_informes"
     },
     {
       "label": "router",
@@ -597,9 +653,10 @@
       "source_file": "rutas_informes.js",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "rutas_informes_router",
       "community": 4,
-      "norm_label": "router"
+      "norm_label": "router",
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "rutas_informes_router"
     },
     {
       "label": "rango()",
@@ -608,9 +665,10 @@
       "source_location": "L11",
       "_callable": true,
       "_origin": "ast",
-      "id": "rutas_informes_rango",
       "community": 4,
-      "norm_label": "rango()"
+      "norm_label": "rango()",
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "rutas_informes_rango"
     },
     {
       "label": "rutas_tareas.js",
@@ -618,9 +676,10 @@
       "source_file": "rutas_tareas.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "rutas_tareas",
       "community": 4,
-      "norm_label": "rutas_tareas.js"
+      "norm_label": "rutas_tareas.js",
+      "community_name": "Task Routes Logic",
+      "id": "rutas_tareas"
     },
     {
       "label": "router",
@@ -628,9 +687,10 @@
       "source_file": "rutas_tareas.js",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "rutas_tareas_router",
       "community": 4,
-      "norm_label": "router"
+      "norm_label": "router",
+      "community_name": "Task Routes Logic",
+      "id": "rutas_tareas_router"
     },
     {
       "label": "fechaMas()",
@@ -639,9 +699,10 @@
       "source_location": "L10",
       "_callable": true,
       "_origin": "ast",
-      "id": "rutas_tareas_fechamas",
       "community": 4,
-      "norm_label": "fechamas()"
+      "norm_label": "fechamas()",
+      "community_name": "Task Routes Logic",
+      "id": "rutas_tareas_fechamas"
     },
     {
       "label": "schema.sql",
@@ -649,9 +710,10 @@
       "source_file": "schema.sql",
       "source_location": null,
       "_origin": "ast",
-      "id": "schema",
       "community": 9,
-      "norm_label": "schema.sql"
+      "norm_label": "schema.sql",
+      "community_name": "Inventory Schema",
+      "id": "schema"
     },
     {
       "label": "usuarios",
@@ -659,9 +721,10 @@
       "source_file": "schema.sql",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "schema_usuarios",
       "community": 1,
-      "norm_label": "usuarios"
+      "norm_label": "usuarios",
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_usuarios"
     },
     {
       "label": "ubicaciones",
@@ -669,9 +732,10 @@
       "source_file": "schema.sql",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "schema_ubicaciones",
       "community": 9,
-      "norm_label": "ubicaciones"
+      "norm_label": "ubicaciones",
+      "community_name": "Inventory Schema",
+      "id": "schema_ubicaciones"
     },
     {
       "label": "items",
@@ -679,9 +743,10 @@
       "source_file": "schema.sql",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "schema_items",
       "community": 9,
-      "norm_label": "items"
+      "norm_label": "items",
+      "community_name": "Inventory Schema",
+      "id": "schema_items"
     },
     {
       "label": "inventario",
@@ -689,9 +754,10 @@
       "source_file": "schema.sql",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "schema_inventario",
       "community": 9,
-      "norm_label": "inventario"
+      "norm_label": "inventario",
+      "community_name": "Inventory Schema",
+      "id": "schema_inventario"
     },
     {
       "label": "movimientos",
@@ -699,9 +765,10 @@
       "source_file": "schema.sql",
       "source_location": "L47",
       "_origin": "ast",
-      "id": "schema_movimientos",
       "community": 9,
-      "norm_label": "movimientos"
+      "norm_label": "movimientos",
+      "community_name": "Inventory Schema",
+      "id": "schema_movimientos"
     },
     {
       "label": "schema_ceba.sql",
@@ -709,9 +776,10 @@
       "source_file": "schema_ceba.sql",
       "source_location": null,
       "_origin": "ast",
-      "id": "schema_ceba",
       "community": 6,
-      "norm_label": "schema_ceba.sql"
+      "norm_label": "schema_ceba.sql",
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_ceba"
     },
     {
       "label": "granjas_ceba",
@@ -719,9 +787,10 @@
       "source_file": "schema_ceba.sql",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "schema_ceba_granjas_ceba",
       "community": 6,
-      "norm_label": "granjas_ceba"
+      "norm_label": "granjas_ceba",
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_ceba_granjas_ceba"
     },
     {
       "label": "movimientos_ceba",
@@ -729,9 +798,10 @@
       "source_file": "schema_ceba.sql",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "schema_ceba_movimientos_ceba",
       "community": 6,
-      "norm_label": "movimientos_ceba"
+      "norm_label": "movimientos_ceba",
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_ceba_movimientos_ceba"
     },
     {
       "label": "consumo_ceba",
@@ -739,9 +809,10 @@
       "source_file": "schema_ceba.sql",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "schema_ceba_consumo_ceba",
       "community": 6,
-      "norm_label": "consumo_ceba"
+      "norm_label": "consumo_ceba",
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_ceba_consumo_ceba"
     },
     {
       "label": "liquidaciones_ceba",
@@ -749,9 +820,10 @@
       "source_file": "schema_ceba.sql",
       "source_location": "L51",
       "_origin": "ast",
-      "id": "schema_ceba_liquidaciones_ceba",
       "community": 6,
-      "norm_label": "liquidaciones_ceba"
+      "norm_label": "liquidaciones_ceba",
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_ceba_liquidaciones_ceba"
     },
     {
       "label": "lotes_destete",
@@ -759,9 +831,10 @@
       "source_file": "schema_ceba.sql",
       "source_location": "L81",
       "_origin": "ast",
-      "id": "schema_ceba_lotes_destete",
       "community": 6,
-      "norm_label": "lotes_destete"
+      "norm_label": "lotes_destete",
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_ceba_lotes_destete"
     },
     {
       "label": "schema_costeo.sql",
@@ -769,9 +842,10 @@
       "source_file": "schema_costeo.sql",
       "source_location": null,
       "_origin": "ast",
-      "id": "schema_costeo",
       "community": 1,
-      "norm_label": "schema_costeo.sql"
+      "norm_label": "schema_costeo.sql",
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_costeo"
     },
     {
       "label": "consumo_diario",
@@ -779,9 +853,10 @@
       "source_file": "schema_costeo.sql",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "schema_costeo_consumo_diario",
       "community": 1,
-      "norm_label": "consumo_diario"
+      "norm_label": "consumo_diario",
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_costeo_consumo_diario"
     },
     {
       "label": "lactancia_banda",
@@ -789,9 +864,10 @@
       "source_file": "schema_costeo.sql",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "schema_costeo_lactancia_banda",
       "community": 1,
-      "norm_label": "lactancia_banda"
+      "norm_label": "lactancia_banda",
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_costeo_lactancia_banda"
     },
     {
       "label": "schema_cria.sql",
@@ -799,9 +875,10 @@
       "source_file": "schema_cria.sql",
       "source_location": null,
       "_origin": "ast",
-      "id": "schema_cria",
       "community": 1,
-      "norm_label": "schema_cria.sql"
+      "norm_label": "schema_cria.sql",
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_cria"
     },
     {
       "label": "razas",
@@ -809,9 +886,10 @@
       "source_file": "schema_cria.sql",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "schema_cria_razas",
       "community": 1,
-      "norm_label": "razas"
+      "norm_label": "razas",
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_cria_razas"
     },
     {
       "label": "cerdas",
@@ -819,9 +897,10 @@
       "source_file": "schema_cria.sql",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "schema_cria_cerdas",
       "community": 1,
-      "norm_label": "cerdas"
+      "norm_label": "cerdas",
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_cria_cerdas"
     },
     {
       "label": "servicios",
@@ -829,9 +908,10 @@
       "source_file": "schema_cria.sql",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "schema_cria_servicios",
       "community": 1,
-      "norm_label": "servicios"
+      "norm_label": "servicios",
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_cria_servicios"
     },
     {
       "label": "diagnosticos",
@@ -839,9 +919,10 @@
       "source_file": "schema_cria.sql",
       "source_location": "L58",
       "_origin": "ast",
-      "id": "schema_cria_diagnosticos",
       "community": 1,
-      "norm_label": "diagnosticos"
+      "norm_label": "diagnosticos",
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_cria_diagnosticos"
     },
     {
       "label": "partos",
@@ -849,9 +930,10 @@
       "source_file": "schema_cria.sql",
       "source_location": "L71",
       "_origin": "ast",
-      "id": "schema_cria_partos",
       "community": 1,
-      "norm_label": "partos"
+      "norm_label": "partos",
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_cria_partos"
     },
     {
       "label": "destetes",
@@ -859,9 +941,10 @@
       "source_file": "schema_cria.sql",
       "source_location": "L91",
       "_origin": "ast",
-      "id": "schema_cria_destetes",
       "community": 1,
-      "norm_label": "destetes"
+      "norm_label": "destetes",
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_cria_destetes"
     },
     {
       "label": "salidas_cerda",
@@ -869,9 +952,10 @@
       "source_file": "schema_cria.sql",
       "source_location": "L105",
       "_origin": "ast",
-      "id": "schema_cria_salidas_cerda",
       "community": 1,
-      "norm_label": "salidas_cerda"
+      "norm_label": "salidas_cerda",
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_cria_salidas_cerda"
     },
     {
       "label": "schema_informes.sql",
@@ -879,9 +963,10 @@
       "source_file": "schema_informes.sql",
       "source_location": null,
       "_origin": "ast",
-      "id": "schema_informes",
       "community": 6,
-      "norm_label": "schema_informes.sql"
+      "norm_label": "schema_informes.sql",
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_informes"
     },
     {
       "label": "bandas",
@@ -889,9 +974,10 @@
       "source_file": "schema_informes.sql",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "schema_informes_bandas",
       "community": 6,
-      "norm_label": "bandas"
+      "norm_label": "bandas",
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_informes_bandas"
     },
     {
       "label": "consumos_alimento",
@@ -899,9 +985,10 @@
       "source_file": "schema_informes.sql",
       "source_location": "L29",
       "_origin": "ast",
-      "id": "schema_informes_consumos_alimento",
       "community": 6,
-      "norm_label": "consumos_alimento"
+      "norm_label": "consumos_alimento",
+      "community_name": "Fattening & Band Database Schema",
+      "id": "schema_informes_consumos_alimento"
     },
     {
       "label": "schema_tareas.sql",
@@ -909,9 +996,10 @@
       "source_file": "schema_tareas.sql",
       "source_location": null,
       "_origin": "ast",
-      "id": "schema_tareas",
       "community": 1,
-      "norm_label": "schema_tareas.sql"
+      "norm_label": "schema_tareas.sql",
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_tareas"
     },
     {
       "label": "tareas_catalogo",
@@ -919,9 +1007,10 @@
       "source_file": "schema_tareas.sql",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "schema_tareas_tareas_catalogo",
       "community": 1,
-      "norm_label": "tareas_catalogo"
+      "norm_label": "tareas_catalogo",
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_tareas_tareas_catalogo"
     },
     {
       "label": "tareas_aplicadas",
@@ -929,9 +1018,10 @@
       "source_file": "schema_tareas.sql",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "schema_tareas_tareas_aplicadas",
       "community": 1,
-      "norm_label": "tareas_aplicadas"
+      "norm_label": "tareas_aplicadas",
+      "community_name": "Breeding & Sow Database Schema",
+      "id": "schema_tareas_tareas_aplicadas"
     },
     {
       "label": "server.js",
@@ -939,9 +1029,10 @@
       "source_file": "server.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "server",
       "community": 4,
-      "norm_label": "server.js"
+      "norm_label": "server.js",
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "server"
     },
     {
       "label": "app",
@@ -949,9 +1040,10 @@
       "source_file": "server.js",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "server_app",
       "community": 4,
-      "norm_label": "app"
+      "norm_label": "app",
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "server_app"
     },
     {
       "label": "origenesPermitidos",
@@ -959,9 +1051,10 @@
       "source_file": "server.js",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "server_origenespermitidos",
       "community": 4,
-      "norm_label": "origenespermitidos"
+      "norm_label": "origenespermitidos",
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "server_origenespermitidos"
     },
     {
       "label": "requiereLogin()",
@@ -970,9 +1063,10 @@
       "source_location": "L36",
       "_callable": true,
       "_origin": "ast",
-      "id": "server_requierelogin",
       "community": 4,
-      "norm_label": "requierelogin()"
+      "norm_label": "requierelogin()",
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "server_requierelogin"
     },
     {
       "label": "requiereAdmin()",
@@ -981,9 +1075,10 @@
       "source_location": "L48",
       "_callable": true,
       "_origin": "ast",
-      "id": "server_requiereadmin",
       "community": 4,
-      "norm_label": "requiereadmin()"
+      "norm_label": "requiereadmin()",
+      "community_name": "Express Routing & Auth Middleware",
+      "id": "server_requiereadmin"
     },
     {
       "label": "AgroSoft Backend",
@@ -994,9 +1089,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_agrosoft_backend",
       "community": 0,
-      "norm_label": "agrosoft backend"
+      "norm_label": "agrosoft backend",
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_agrosoft_backend"
     },
     {
       "label": "Authentication Module (JWT + bcrypt)",
@@ -1007,9 +1104,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_auth_module",
       "community": 0,
-      "norm_label": "authentication module (jwt + bcrypt)"
+      "norm_label": "authentication module (jwt + bcrypt)",
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_auth_module"
     },
     {
       "label": "User Administration Module",
@@ -1020,9 +1119,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_user_admin_module",
       "community": 0,
-      "norm_label": "user administration module"
+      "norm_label": "user administration module",
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_user_admin_module"
     },
     {
       "label": "Granja de Cr\u00eda Module (Reproductive Cycle)",
@@ -1033,9 +1134,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_cria_module",
       "community": 0,
-      "norm_label": "granja de cria module (reproductive cycle)"
+      "norm_label": "granja de cria module (reproductive cycle)",
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_cria_module"
     },
     {
       "label": "Informes de Cr\u00eda Module (Reports)",
@@ -1046,9 +1149,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_informes_module",
       "community": 0,
-      "norm_label": "informes de cria module (reports)"
+      "norm_label": "informes de cria module (reports)",
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_informes_module"
     },
     {
       "label": "Costeo por Banda Module (Band Costing)",
@@ -1059,9 +1164,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_costeo_module",
       "community": 0,
-      "norm_label": "costeo por banda module (band costing)"
+      "norm_label": "costeo por banda module (band costing)",
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_costeo_module"
     },
     {
       "label": "Tareas y Vacunaci\u00f3n Module (Tasks & Vaccination)",
@@ -1072,9 +1179,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_tareas_module",
       "community": 0,
-      "norm_label": "tareas y vacunacion module (tasks & vaccination)"
+      "norm_label": "tareas y vacunacion module (tasks & vaccination)",
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_tareas_module"
     },
     {
       "label": "Ceba / Engorde Module (Fattening)",
@@ -1085,9 +1194,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_ceba_module",
       "community": 0,
-      "norm_label": "ceba / engorde module (fattening)"
+      "norm_label": "ceba / engorde module (fattening)",
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_ceba_module"
     },
     {
       "label": "Integraci\u00f3n Cr\u00eda\u2192Ceba y Ventas Parciales",
@@ -1098,9 +1209,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_integracion_module",
       "community": 0,
-      "norm_label": "integracion cria\u2192ceba y ventas parciales"
+      "norm_label": "integracion cria\u2192ceba y ventas parciales",
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_integracion_module"
     },
     {
       "label": "PostgreSQL Database",
@@ -1111,9 +1224,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_postgresql",
       "community": 0,
-      "norm_label": "postgresql database"
+      "norm_label": "postgresql database",
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_postgresql"
     },
     {
       "label": "Node.js + Express Framework",
@@ -1124,9 +1239,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_nodejs_express",
       "community": 0,
-      "norm_label": "node.js + express framework"
+      "norm_label": "node.js + express framework",
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_nodejs_express"
     },
     {
       "label": "JWT (JSON Web Token) Sessions",
@@ -1137,9 +1254,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_jwt",
       "community": 0,
-      "norm_label": "jwt (json web token) sessions"
+      "norm_label": "jwt (json web token) sessions",
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_jwt"
     },
     {
       "label": "bcrypt Password Hashing",
@@ -1150,9 +1269,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_bcrypt",
       "community": 0,
-      "norm_label": "bcrypt password hashing"
+      "norm_label": "bcrypt password hashing",
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_bcrypt"
     },
     {
       "label": "pm2 Process Manager",
@@ -1163,9 +1284,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_pm2",
       "community": 0,
-      "norm_label": "pm2 process manager"
+      "norm_label": "pm2 process manager",
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_pm2"
     },
     {
       "label": "EC2 Deployment",
@@ -1176,9 +1299,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_ec2_deployment",
       "community": 0,
-      "norm_label": "ec2 deployment"
+      "norm_label": "ec2 deployment",
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_ec2_deployment"
     },
     {
       "label": "Lotes Destete (Weaned Lots)",
@@ -1189,9 +1314,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_lotes_destete",
       "community": 0,
-      "norm_label": "lotes destete (weaned lots)"
+      "norm_label": "lotes destete (weaned lots)",
+      "community_name": "AgroSoft Pig Farm Backend",
+      "_origin": "semantic",
+      "id": "readme_lotes_destete"
     }
   ],
   "links": [
@@ -1202,9 +1329,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "costeo_banda",
-      "target": "costeo_banda_calcularcosteobanda",
-      "confidence_score": 1.0
+      "target": "costeo_banda_calcularcosteobanda"
     },
     {
       "relation": "imports_from",
@@ -1214,9 +1341,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "costeo_banda",
-      "target": "db",
-      "confidence_score": 1.0
+      "target": "db"
     },
     {
       "relation": "imports",
@@ -1226,9 +1353,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "costeo_banda",
-      "target": "db_pool",
-      "confidence_score": 1.0
+      "target": "db_pool"
     },
     {
       "relation": "imports_from",
@@ -1238,9 +1365,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_ceba",
-      "target": "costeo_banda",
-      "confidence_score": 1.0
+      "target": "costeo_banda"
     },
     {
       "relation": "imports_from",
@@ -1250,9 +1377,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_costeo",
-      "target": "costeo_banda",
-      "confidence_score": 1.0
+      "target": "costeo_banda"
     },
     {
       "relation": "imports",
@@ -1262,9 +1389,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_ceba",
-      "target": "costeo_banda_calcularcosteobanda",
-      "confidence_score": 1.0
+      "target": "costeo_banda_calcularcosteobanda"
     },
     {
       "relation": "calls",
@@ -1274,9 +1401,9 @@
       "source_location": "L311",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_ceba_calcularvaloreslote",
-      "target": "costeo_banda_calcularcosteobanda",
-      "confidence_score": 1.0
+      "target": "costeo_banda_calcularcosteobanda"
     },
     {
       "relation": "imports",
@@ -1286,9 +1413,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_costeo",
-      "target": "costeo_banda_calcularcosteobanda",
-      "confidence_score": 1.0
+      "target": "costeo_banda_calcularcosteobanda"
     },
     {
       "relation": "contains",
@@ -1297,9 +1424,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "db",
-      "target": "db_pool",
-      "confidence_score": 1.0
+      "target": "db_pool"
     },
     {
       "relation": "imports_from",
@@ -1309,9 +1436,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb",
-      "target": "db",
-      "confidence_score": 1.0
+      "target": "db"
     },
     {
       "relation": "imports_from",
@@ -1321,9 +1448,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_ceba",
-      "target": "db",
-      "confidence_score": 1.0
+      "target": "db"
     },
     {
       "relation": "imports_from",
@@ -1333,9 +1460,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_costeo",
-      "target": "db",
-      "confidence_score": 1.0
+      "target": "db"
     },
     {
       "relation": "imports_from",
@@ -1345,9 +1472,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_cria",
-      "target": "db",
-      "confidence_score": 1.0
+      "target": "db"
     },
     {
       "relation": "imports_from",
@@ -1357,9 +1484,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_informes",
-      "target": "db",
-      "confidence_score": 1.0
+      "target": "db"
     },
     {
       "relation": "imports_from",
@@ -1369,9 +1496,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_tareas",
-      "target": "db",
-      "confidence_score": 1.0
+      "target": "db"
     },
     {
       "relation": "imports_from",
@@ -1381,9 +1508,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_ceba",
-      "target": "db",
-      "confidence_score": 1.0
+      "target": "db"
     },
     {
       "relation": "imports_from",
@@ -1393,9 +1520,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_costeo",
-      "target": "db",
-      "confidence_score": 1.0
+      "target": "db"
     },
     {
       "relation": "imports_from",
@@ -1405,9 +1532,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_cria",
-      "target": "db",
-      "confidence_score": 1.0
+      "target": "db"
     },
     {
       "relation": "imports_from",
@@ -1417,9 +1544,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_informes",
-      "target": "db",
-      "confidence_score": 1.0
+      "target": "db"
     },
     {
       "relation": "imports_from",
@@ -1429,9 +1556,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_tareas",
-      "target": "db",
-      "confidence_score": 1.0
+      "target": "db"
     },
     {
       "relation": "imports_from",
@@ -1441,9 +1568,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "db",
-      "confidence_score": 1.0
+      "target": "db"
     },
     {
       "relation": "imports",
@@ -1453,9 +1580,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb",
-      "target": "db_pool",
-      "confidence_score": 1.0
+      "target": "db_pool"
     },
     {
       "relation": "imports",
@@ -1465,9 +1592,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_ceba",
-      "target": "db_pool",
-      "confidence_score": 1.0
+      "target": "db_pool"
     },
     {
       "relation": "imports",
@@ -1477,9 +1604,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_costeo",
-      "target": "db_pool",
-      "confidence_score": 1.0
+      "target": "db_pool"
     },
     {
       "relation": "imports",
@@ -1489,9 +1616,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_cria",
-      "target": "db_pool",
-      "confidence_score": 1.0
+      "target": "db_pool"
     },
     {
       "relation": "imports",
@@ -1501,9 +1628,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_informes",
-      "target": "db_pool",
-      "confidence_score": 1.0
+      "target": "db_pool"
     },
     {
       "relation": "imports",
@@ -1513,9 +1640,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_tareas",
-      "target": "db_pool",
-      "confidence_score": 1.0
+      "target": "db_pool"
     },
     {
       "relation": "imports",
@@ -1525,9 +1652,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_ceba",
-      "target": "db_pool",
-      "confidence_score": 1.0
+      "target": "db_pool"
     },
     {
       "relation": "imports",
@@ -1537,9 +1664,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_costeo",
-      "target": "db_pool",
-      "confidence_score": 1.0
+      "target": "db_pool"
     },
     {
       "relation": "imports",
@@ -1549,9 +1676,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_cria",
-      "target": "db_pool",
-      "confidence_score": 1.0
+      "target": "db_pool"
     },
     {
       "relation": "imports",
@@ -1561,9 +1688,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_informes",
-      "target": "db_pool",
-      "confidence_score": 1.0
+      "target": "db_pool"
     },
     {
       "relation": "imports",
@@ -1573,9 +1700,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_tareas",
-      "target": "db_pool",
-      "confidence_score": 1.0
+      "target": "db_pool"
     },
     {
       "relation": "imports",
@@ -1585,9 +1712,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "db_pool",
-      "confidence_score": 1.0
+      "target": "db_pool"
     },
     {
       "relation": "contains",
@@ -1596,9 +1723,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb",
-      "target": "initdb_dirname",
-      "confidence_score": 1.0
+      "target": "initdb_dirname"
     },
     {
       "relation": "contains",
@@ -1607,9 +1734,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb",
-      "target": "initdb_main",
-      "confidence_score": 1.0
+      "target": "initdb_main"
     },
     {
       "relation": "contains",
@@ -1618,9 +1745,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_ceba",
-      "target": "initdb_ceba_dirname",
-      "confidence_score": 1.0
+      "target": "initdb_ceba_dirname"
     },
     {
       "relation": "contains",
@@ -1629,9 +1756,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_ceba",
-      "target": "initdb_ceba_main",
-      "confidence_score": 1.0
+      "target": "initdb_ceba_main"
     },
     {
       "relation": "contains",
@@ -1640,9 +1767,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_costeo",
-      "target": "initdb_costeo_dirname",
-      "confidence_score": 1.0
+      "target": "initdb_costeo_dirname"
     },
     {
       "relation": "contains",
@@ -1651,9 +1778,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_costeo",
-      "target": "initdb_costeo_main",
-      "confidence_score": 1.0
+      "target": "initdb_costeo_main"
     },
     {
       "relation": "contains",
@@ -1662,9 +1789,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_cria",
-      "target": "initdb_cria_dirname",
-      "confidence_score": 1.0
+      "target": "initdb_cria_dirname"
     },
     {
       "relation": "contains",
@@ -1673,9 +1800,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_cria",
-      "target": "initdb_cria_main",
-      "confidence_score": 1.0
+      "target": "initdb_cria_main"
     },
     {
       "relation": "contains",
@@ -1684,9 +1811,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_informes",
-      "target": "initdb_informes_dirname",
-      "confidence_score": 1.0
+      "target": "initdb_informes_dirname"
     },
     {
       "relation": "contains",
@@ -1695,9 +1822,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_informes",
-      "target": "initdb_informes_main",
-      "confidence_score": 1.0
+      "target": "initdb_informes_main"
     },
     {
       "relation": "contains",
@@ -1706,9 +1833,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_tareas",
-      "target": "initdb_tareas_catalogo",
-      "confidence_score": 1.0
+      "target": "initdb_tareas_catalogo"
     },
     {
       "relation": "contains",
@@ -1717,9 +1844,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_tareas",
-      "target": "initdb_tareas_dirname",
-      "confidence_score": 1.0
+      "target": "initdb_tareas_dirname"
     },
     {
       "relation": "contains",
@@ -1728,9 +1855,9 @@
       "source_location": "L41",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "initdb_tareas",
-      "target": "initdb_tareas_main",
-      "confidence_score": 1.0
+      "target": "initdb_tareas_main"
     },
     {
       "relation": "contains",
@@ -1739,9 +1866,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_dependencies",
-      "confidence_score": 1.0
+      "target": "package_dependencies"
     },
     {
       "relation": "contains",
@@ -1750,9 +1877,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_description",
-      "confidence_score": 1.0
+      "target": "package_description"
     },
     {
       "relation": "contains",
@@ -1761,9 +1888,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_main",
-      "confidence_score": 1.0
+      "target": "package_main"
     },
     {
       "relation": "contains",
@@ -1772,9 +1899,9 @@
       "source_location": "L2",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_name",
-      "confidence_score": 1.0
+      "target": "package_name"
     },
     {
       "relation": "contains",
@@ -1783,9 +1910,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_scripts",
-      "confidence_score": 1.0
+      "target": "package_scripts"
     },
     {
       "relation": "contains",
@@ -1794,9 +1921,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_type",
-      "confidence_score": 1.0
+      "target": "package_type"
     },
     {
       "relation": "contains",
@@ -1805,9 +1932,9 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_version",
-      "confidence_score": 1.0
+      "target": "package_version"
     },
     {
       "relation": "contains",
@@ -1816,9 +1943,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_init_db",
-      "confidence_score": 1.0
+      "target": "package_scripts_init_db"
     },
     {
       "relation": "contains",
@@ -1827,9 +1954,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_start",
-      "confidence_score": 1.0
+      "target": "package_scripts_start"
     },
     {
       "relation": "contains",
@@ -1838,9 +1965,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_bcryptjs",
-      "confidence_score": 1.0
+      "target": "package_dependencies_bcryptjs"
     },
     {
       "relation": "contains",
@@ -1849,9 +1976,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_cors",
-      "confidence_score": 1.0
+      "target": "package_dependencies_cors"
     },
     {
       "relation": "contains",
@@ -1860,9 +1987,9 @@
       "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_dotenv",
-      "confidence_score": 1.0
+      "target": "package_dependencies_dotenv"
     },
     {
       "relation": "contains",
@@ -1871,9 +1998,9 @@
       "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_express",
-      "confidence_score": 1.0
+      "target": "package_dependencies_express"
     },
     {
       "relation": "contains",
@@ -1882,9 +2009,9 @@
       "source_location": "L16",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_jsonwebtoken",
-      "confidence_score": 1.0
+      "target": "package_dependencies_jsonwebtoken"
     },
     {
       "relation": "contains",
@@ -1893,9 +2020,9 @@
       "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_pg",
-      "confidence_score": 1.0
+      "target": "package_dependencies_pg"
     },
     {
       "relation": "imports",
@@ -1905,9 +2032,9 @@
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package_dependencies_bcryptjs",
-      "target": "bcryptjs",
-      "confidence_score": 1.0
+      "target": "bcryptjs"
     },
     {
       "relation": "imports",
@@ -1917,9 +2044,9 @@
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package_dependencies_cors",
-      "target": "cors",
-      "confidence_score": 1.0
+      "target": "cors"
     },
     {
       "relation": "imports",
@@ -1929,9 +2056,9 @@
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package_dependencies_dotenv",
-      "target": "dotenv",
-      "confidence_score": 1.0
+      "target": "dotenv"
     },
     {
       "relation": "imports",
@@ -1941,9 +2068,9 @@
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package_dependencies_express",
-      "target": "express",
-      "confidence_score": 1.0
+      "target": "express"
     },
     {
       "relation": "imports",
@@ -1953,9 +2080,9 @@
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package_dependencies_jsonwebtoken",
-      "target": "jsonwebtoken",
-      "confidence_score": 1.0
+      "target": "jsonwebtoken"
     },
     {
       "relation": "imports",
@@ -1965,9 +2092,9 @@
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "package_dependencies_pg",
-      "target": "pg",
-      "confidence_score": 1.0
+      "target": "pg"
     },
     {
       "relation": "contains",
@@ -1976,9 +2103,9 @@
       "source_location": "L29",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_ceba",
-      "target": "rutas_ceba_calcularinventario",
-      "confidence_score": 1.0
+      "target": "rutas_ceba_calcularinventario"
     },
     {
       "relation": "contains",
@@ -1987,9 +2114,9 @@
       "source_location": "L293",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_ceba",
-      "target": "rutas_ceba_calcularvaloreslote",
-      "confidence_score": 1.0
+      "target": "rutas_ceba_calcularvaloreslote"
     },
     {
       "relation": "contains",
@@ -1998,9 +2125,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_ceba",
-      "target": "rutas_ceba_router",
-      "confidence_score": 1.0
+      "target": "rutas_ceba_router"
     },
     {
       "relation": "imports_from",
@@ -2010,9 +2137,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "rutas_ceba",
-      "confidence_score": 1.0
+      "target": "rutas_ceba"
     },
     {
       "relation": "imports",
@@ -2022,9 +2149,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "rutas_ceba_router",
-      "confidence_score": 1.0
+      "target": "rutas_ceba_router"
     },
     {
       "relation": "contains",
@@ -2033,9 +2160,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_costeo",
-      "target": "rutas_costeo_router",
-      "confidence_score": 1.0
+      "target": "rutas_costeo_router"
     },
     {
       "relation": "imports_from",
@@ -2045,9 +2172,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "rutas_costeo",
-      "confidence_score": 1.0
+      "target": "rutas_costeo"
     },
     {
       "relation": "imports",
@@ -2057,9 +2184,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "rutas_costeo_router",
-      "confidence_score": 1.0
+      "target": "rutas_costeo_router"
     },
     {
       "relation": "contains",
@@ -2068,9 +2195,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_cria",
-      "target": "rutas_cria_fechamas",
-      "confidence_score": 1.0
+      "target": "rutas_cria_fechamas"
     },
     {
       "relation": "contains",
@@ -2079,9 +2206,9 @@
       "source_location": "L238",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_cria",
-      "target": "rutas_cria_recalcularcerda",
-      "confidence_score": 1.0
+      "target": "rutas_cria_recalcularcerda"
     },
     {
       "relation": "contains",
@@ -2090,9 +2217,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_cria",
-      "target": "rutas_cria_router",
-      "confidence_score": 1.0
+      "target": "rutas_cria_router"
     },
     {
       "relation": "imports_from",
@@ -2102,9 +2229,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "rutas_cria",
-      "confidence_score": 1.0
+      "target": "rutas_cria"
     },
     {
       "relation": "imports",
@@ -2114,9 +2241,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "rutas_cria_router",
-      "confidence_score": 1.0
+      "target": "rutas_cria_router"
     },
     {
       "relation": "contains",
@@ -2125,9 +2252,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_informes",
-      "target": "rutas_informes_rango",
-      "confidence_score": 1.0
+      "target": "rutas_informes_rango"
     },
     {
       "relation": "contains",
@@ -2136,9 +2263,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_informes",
-      "target": "rutas_informes_router",
-      "confidence_score": 1.0
+      "target": "rutas_informes_router"
     },
     {
       "relation": "imports_from",
@@ -2148,9 +2275,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "rutas_informes",
-      "confidence_score": 1.0
+      "target": "rutas_informes"
     },
     {
       "relation": "imports",
@@ -2160,9 +2287,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "rutas_informes_router",
-      "confidence_score": 1.0
+      "target": "rutas_informes_router"
     },
     {
       "relation": "contains",
@@ -2171,9 +2298,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_tareas",
-      "target": "rutas_tareas_fechamas",
-      "confidence_score": 1.0
+      "target": "rutas_tareas_fechamas"
     },
     {
       "relation": "contains",
@@ -2182,9 +2309,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "rutas_tareas",
-      "target": "rutas_tareas_router",
-      "confidence_score": 1.0
+      "target": "rutas_tareas_router"
     },
     {
       "relation": "imports_from",
@@ -2194,9 +2321,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "rutas_tareas",
-      "confidence_score": 1.0
+      "target": "rutas_tareas"
     },
     {
       "relation": "imports",
@@ -2206,9 +2333,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "rutas_tareas_router",
-      "confidence_score": 1.0
+      "target": "rutas_tareas_router"
     },
     {
       "relation": "contains",
@@ -2217,9 +2344,9 @@
       "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema",
-      "target": "schema_inventario",
-      "confidence_score": 1.0
+      "target": "schema_inventario"
     },
     {
       "relation": "contains",
@@ -2228,9 +2355,9 @@
       "source_location": "L28",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema",
-      "target": "schema_items",
-      "confidence_score": 1.0
+      "target": "schema_items"
     },
     {
       "relation": "contains",
@@ -2239,9 +2366,9 @@
       "source_location": "L47",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema",
-      "target": "schema_movimientos",
-      "confidence_score": 1.0
+      "target": "schema_movimientos"
     },
     {
       "relation": "contains",
@@ -2250,9 +2377,9 @@
       "source_location": "L19",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema",
-      "target": "schema_ubicaciones",
-      "confidence_score": 1.0
+      "target": "schema_ubicaciones"
     },
     {
       "relation": "contains",
@@ -2261,9 +2388,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema",
-      "target": "schema_usuarios",
-      "confidence_score": 1.0
+      "target": "schema_usuarios"
     },
     {
       "relation": "references",
@@ -2272,9 +2399,9 @@
       "source_location": "L36",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_ceba_consumo_ceba",
-      "target": "schema_usuarios",
-      "confidence_score": 1.0
+      "target": "schema_usuarios"
     },
     {
       "relation": "references",
@@ -2283,9 +2410,9 @@
       "source_location": "L51",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_ceba_liquidaciones_ceba",
-      "target": "schema_usuarios",
-      "confidence_score": 1.0
+      "target": "schema_usuarios"
     },
     {
       "relation": "references",
@@ -2294,9 +2421,9 @@
       "source_location": "L81",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_ceba_lotes_destete",
-      "target": "schema_usuarios",
-      "confidence_score": 1.0
+      "target": "schema_usuarios"
     },
     {
       "relation": "references",
@@ -2305,9 +2432,9 @@
       "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_ceba_movimientos_ceba",
-      "target": "schema_usuarios",
-      "confidence_score": 1.0
+      "target": "schema_usuarios"
     },
     {
       "relation": "references",
@@ -2316,9 +2443,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_costeo_consumo_diario",
-      "target": "schema_usuarios",
-      "confidence_score": 1.0
+      "target": "schema_usuarios"
     },
     {
       "relation": "references",
@@ -2327,9 +2454,9 @@
       "source_location": "L25",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_costeo_lactancia_banda",
-      "target": "schema_usuarios",
-      "confidence_score": 1.0
+      "target": "schema_usuarios"
     },
     {
       "relation": "references",
@@ -2338,9 +2465,9 @@
       "source_location": "L91",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria_destetes",
-      "target": "schema_usuarios",
-      "confidence_score": 1.0
+      "target": "schema_usuarios"
     },
     {
       "relation": "references",
@@ -2349,9 +2476,9 @@
       "source_location": "L58",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria_diagnosticos",
-      "target": "schema_usuarios",
-      "confidence_score": 1.0
+      "target": "schema_usuarios"
     },
     {
       "relation": "references",
@@ -2360,9 +2487,9 @@
       "source_location": "L71",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria_partos",
-      "target": "schema_usuarios",
-      "confidence_score": 1.0
+      "target": "schema_usuarios"
     },
     {
       "relation": "references",
@@ -2371,9 +2498,9 @@
       "source_location": "L105",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria_salidas_cerda",
-      "target": "schema_usuarios",
-      "confidence_score": 1.0
+      "target": "schema_usuarios"
     },
     {
       "relation": "references",
@@ -2382,9 +2509,9 @@
       "source_location": "L40",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria_servicios",
-      "target": "schema_usuarios",
-      "confidence_score": 1.0
+      "target": "schema_usuarios"
     },
     {
       "relation": "references",
@@ -2393,9 +2520,9 @@
       "source_location": "L29",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_informes_consumos_alimento",
-      "target": "schema_usuarios",
-      "confidence_score": 1.0
+      "target": "schema_usuarios"
     },
     {
       "relation": "references",
@@ -2404,9 +2531,9 @@
       "source_location": "L47",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_movimientos",
-      "target": "schema_usuarios",
-      "confidence_score": 1.0
+      "target": "schema_usuarios"
     },
     {
       "relation": "references",
@@ -2415,9 +2542,9 @@
       "source_location": "L28",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_tareas_tareas_aplicadas",
-      "target": "schema_usuarios",
-      "confidence_score": 1.0
+      "target": "schema_usuarios"
     },
     {
       "relation": "references",
@@ -2426,9 +2553,9 @@
       "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_inventario",
-      "target": "schema_ubicaciones",
-      "confidence_score": 1.0
+      "target": "schema_ubicaciones"
     },
     {
       "relation": "references",
@@ -2437,9 +2564,9 @@
       "source_location": "L47",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_movimientos",
-      "target": "schema_ubicaciones",
-      "confidence_score": 1.0
+      "target": "schema_ubicaciones"
     },
     {
       "relation": "references",
@@ -2448,9 +2575,9 @@
       "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_inventario",
-      "target": "schema_items",
-      "confidence_score": 1.0
+      "target": "schema_items"
     },
     {
       "relation": "references",
@@ -2459,9 +2586,9 @@
       "source_location": "L47",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_movimientos",
-      "target": "schema_items",
-      "confidence_score": 1.0
+      "target": "schema_items"
     },
     {
       "relation": "contains",
@@ -2470,9 +2597,9 @@
       "source_location": "L36",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_ceba",
-      "target": "schema_ceba_consumo_ceba",
-      "confidence_score": 1.0
+      "target": "schema_ceba_consumo_ceba"
     },
     {
       "relation": "contains",
@@ -2481,9 +2608,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_ceba",
-      "target": "schema_ceba_granjas_ceba",
-      "confidence_score": 1.0
+      "target": "schema_ceba_granjas_ceba"
     },
     {
       "relation": "contains",
@@ -2492,9 +2619,9 @@
       "source_location": "L51",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_ceba",
-      "target": "schema_ceba_liquidaciones_ceba",
-      "confidence_score": 1.0
+      "target": "schema_ceba_liquidaciones_ceba"
     },
     {
       "relation": "contains",
@@ -2503,9 +2630,9 @@
       "source_location": "L81",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_ceba",
-      "target": "schema_ceba_lotes_destete",
-      "confidence_score": 1.0
+      "target": "schema_ceba_lotes_destete"
     },
     {
       "relation": "contains",
@@ -2514,9 +2641,9 @@
       "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_ceba",
-      "target": "schema_ceba_movimientos_ceba",
-      "confidence_score": 1.0
+      "target": "schema_ceba_movimientos_ceba"
     },
     {
       "relation": "references",
@@ -2525,9 +2652,9 @@
       "source_location": "L36",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_ceba_consumo_ceba",
-      "target": "schema_ceba_granjas_ceba",
-      "confidence_score": 1.0
+      "target": "schema_ceba_granjas_ceba"
     },
     {
       "relation": "references",
@@ -2536,9 +2663,9 @@
       "source_location": "L51",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_ceba_liquidaciones_ceba",
-      "target": "schema_ceba_granjas_ceba",
-      "confidence_score": 1.0
+      "target": "schema_ceba_granjas_ceba"
     },
     {
       "relation": "references",
@@ -2547,9 +2674,9 @@
       "source_location": "L81",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_ceba_lotes_destete",
-      "target": "schema_ceba_granjas_ceba",
-      "confidence_score": 1.0
+      "target": "schema_ceba_granjas_ceba"
     },
     {
       "relation": "references",
@@ -2558,9 +2685,9 @@
       "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_ceba_movimientos_ceba",
-      "target": "schema_ceba_granjas_ceba",
-      "confidence_score": 1.0
+      "target": "schema_ceba_granjas_ceba"
     },
     {
       "relation": "references",
@@ -2569,9 +2696,9 @@
       "source_location": "L81",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_ceba_lotes_destete",
-      "target": "schema_ceba_movimientos_ceba",
-      "confidence_score": 1.0
+      "target": "schema_ceba_movimientos_ceba"
     },
     {
       "relation": "references",
@@ -2580,9 +2707,9 @@
       "source_location": "L81",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_ceba_lotes_destete",
-      "target": "schema_informes_bandas",
-      "confidence_score": 1.0
+      "target": "schema_informes_bandas"
     },
     {
       "relation": "contains",
@@ -2591,9 +2718,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_costeo",
-      "target": "schema_costeo_consumo_diario",
-      "confidence_score": 1.0
+      "target": "schema_costeo_consumo_diario"
     },
     {
       "relation": "contains",
@@ -2602,9 +2729,9 @@
       "source_location": "L25",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_costeo",
-      "target": "schema_costeo_lactancia_banda",
-      "confidence_score": 1.0
+      "target": "schema_costeo_lactancia_banda"
     },
     {
       "relation": "references",
@@ -2613,9 +2740,9 @@
       "source_location": "L25",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_costeo_lactancia_banda",
-      "target": "schema_informes_bandas",
-      "confidence_score": 1.0
+      "target": "schema_informes_bandas"
     },
     {
       "relation": "contains",
@@ -2624,9 +2751,9 @@
       "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria",
-      "target": "schema_cria_cerdas",
-      "confidence_score": 1.0
+      "target": "schema_cria_cerdas"
     },
     {
       "relation": "contains",
@@ -2635,9 +2762,9 @@
       "source_location": "L91",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria",
-      "target": "schema_cria_destetes",
-      "confidence_score": 1.0
+      "target": "schema_cria_destetes"
     },
     {
       "relation": "contains",
@@ -2646,9 +2773,9 @@
       "source_location": "L58",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria",
-      "target": "schema_cria_diagnosticos",
-      "confidence_score": 1.0
+      "target": "schema_cria_diagnosticos"
     },
     {
       "relation": "contains",
@@ -2657,9 +2784,9 @@
       "source_location": "L71",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria",
-      "target": "schema_cria_partos",
-      "confidence_score": 1.0
+      "target": "schema_cria_partos"
     },
     {
       "relation": "contains",
@@ -2668,9 +2795,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria",
-      "target": "schema_cria_razas",
-      "confidence_score": 1.0
+      "target": "schema_cria_razas"
     },
     {
       "relation": "contains",
@@ -2679,9 +2806,9 @@
       "source_location": "L105",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria",
-      "target": "schema_cria_salidas_cerda",
-      "confidence_score": 1.0
+      "target": "schema_cria_salidas_cerda"
     },
     {
       "relation": "contains",
@@ -2690,9 +2817,9 @@
       "source_location": "L40",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria",
-      "target": "schema_cria_servicios",
-      "confidence_score": 1.0
+      "target": "schema_cria_servicios"
     },
     {
       "relation": "references",
@@ -2701,9 +2828,9 @@
       "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria_cerdas",
-      "target": "schema_cria_razas",
-      "confidence_score": 1.0
+      "target": "schema_cria_razas"
     },
     {
       "relation": "references",
@@ -2712,9 +2839,9 @@
       "source_location": "L91",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria_destetes",
-      "target": "schema_cria_cerdas",
-      "confidence_score": 1.0
+      "target": "schema_cria_cerdas"
     },
     {
       "relation": "references",
@@ -2723,9 +2850,9 @@
       "source_location": "L58",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria_diagnosticos",
-      "target": "schema_cria_cerdas",
-      "confidence_score": 1.0
+      "target": "schema_cria_cerdas"
     },
     {
       "relation": "references",
@@ -2734,9 +2861,9 @@
       "source_location": "L71",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria_partos",
-      "target": "schema_cria_cerdas",
-      "confidence_score": 1.0
+      "target": "schema_cria_cerdas"
     },
     {
       "relation": "references",
@@ -2745,9 +2872,9 @@
       "source_location": "L105",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria_salidas_cerda",
-      "target": "schema_cria_cerdas",
-      "confidence_score": 1.0
+      "target": "schema_cria_cerdas"
     },
     {
       "relation": "references",
@@ -2756,9 +2883,9 @@
       "source_location": "L40",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria_servicios",
-      "target": "schema_cria_cerdas",
-      "confidence_score": 1.0
+      "target": "schema_cria_cerdas"
     },
     {
       "relation": "references",
@@ -2767,9 +2894,9 @@
       "source_location": "L28",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_tareas_tareas_aplicadas",
-      "target": "schema_cria_cerdas",
-      "confidence_score": 1.0
+      "target": "schema_cria_cerdas"
     },
     {
       "relation": "references",
@@ -2778,9 +2905,9 @@
       "source_location": "L58",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria_diagnosticos",
-      "target": "schema_cria_servicios",
-      "confidence_score": 1.0
+      "target": "schema_cria_servicios"
     },
     {
       "relation": "references",
@@ -2789,9 +2916,9 @@
       "source_location": "L71",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria_partos",
-      "target": "schema_cria_servicios",
-      "confidence_score": 1.0
+      "target": "schema_cria_servicios"
     },
     {
       "relation": "references",
@@ -2800,9 +2927,9 @@
       "source_location": "L91",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_cria_destetes",
-      "target": "schema_cria_partos",
-      "confidence_score": 1.0
+      "target": "schema_cria_partos"
     },
     {
       "relation": "contains",
@@ -2811,9 +2938,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_informes",
-      "target": "schema_informes_bandas",
-      "confidence_score": 1.0
+      "target": "schema_informes_bandas"
     },
     {
       "relation": "contains",
@@ -2822,9 +2949,9 @@
       "source_location": "L29",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_informes",
-      "target": "schema_informes_consumos_alimento",
-      "confidence_score": 1.0
+      "target": "schema_informes_consumos_alimento"
     },
     {
       "relation": "references",
@@ -2833,9 +2960,9 @@
       "source_location": "L29",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_informes_consumos_alimento",
-      "target": "schema_informes_bandas",
-      "confidence_score": 1.0
+      "target": "schema_informes_bandas"
     },
     {
       "relation": "contains",
@@ -2844,9 +2971,9 @@
       "source_location": "L28",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_tareas",
-      "target": "schema_tareas_tareas_aplicadas",
-      "confidence_score": 1.0
+      "target": "schema_tareas_tareas_aplicadas"
     },
     {
       "relation": "contains",
@@ -2855,9 +2982,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_tareas",
-      "target": "schema_tareas_tareas_catalogo",
-      "confidence_score": 1.0
+      "target": "schema_tareas_tareas_catalogo"
     },
     {
       "relation": "references",
@@ -2866,9 +2993,9 @@
       "source_location": "L28",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "schema_tareas_tareas_aplicadas",
-      "target": "schema_tareas_tareas_catalogo",
-      "confidence_score": 1.0
+      "target": "schema_tareas_tareas_catalogo"
     },
     {
       "relation": "contains",
@@ -2877,9 +3004,9 @@
       "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "server_app",
-      "confidence_score": 1.0
+      "target": "server_app"
     },
     {
       "relation": "contains",
@@ -2888,9 +3015,9 @@
       "source_location": "L26",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "server_origenespermitidos",
-      "confidence_score": 1.0
+      "target": "server_origenespermitidos"
     },
     {
       "relation": "indirect_call",
@@ -2900,9 +3027,9 @@
       "weight": 1.0,
       "_origin": "ast",
       "context": "argument",
+      "confidence_score": 0.5,
       "source": "server",
-      "target": "server_requiereadmin",
-      "confidence_score": 0.5
+      "target": "server_requiereadmin"
     },
     {
       "relation": "indirect_call",
@@ -2912,9 +3039,9 @@
       "weight": 1.0,
       "_origin": "ast",
       "context": "argument",
+      "confidence_score": 0.5,
       "source": "server",
-      "target": "server_requierelogin",
-      "confidence_score": 0.5
+      "target": "server_requierelogin"
     },
     {
       "relation": "references",
@@ -2923,6 +3050,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_auth_module"
     },
@@ -2933,6 +3061,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_ceba_module"
     },
@@ -2943,6 +3072,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_costeo_module"
     },
@@ -2953,6 +3083,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_cria_module"
     },
@@ -2963,6 +3094,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_informes_module"
     },
@@ -2973,6 +3105,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_integracion_module"
     },
@@ -2983,6 +3116,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_nodejs_express"
     },
@@ -2993,6 +3127,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_postgresql"
     },
@@ -3003,6 +3138,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_tareas_module"
     },
@@ -3013,6 +3149,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_agrosoft_backend",
       "target": "readme_user_admin_module"
     },
@@ -3023,6 +3160,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_auth_module",
       "target": "readme_bcrypt"
     },
@@ -3033,6 +3171,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_auth_module",
       "target": "readme_jwt"
     },
@@ -3043,6 +3182,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 0.9,
+      "_origin": "semantic",
       "source": "readme_costeo_module",
       "target": "readme_cria_module"
     },
@@ -3053,6 +3193,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 0.85,
+      "_origin": "semantic",
       "source": "readme_informes_module",
       "target": "readme_cria_module"
     },
@@ -3063,6 +3204,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_integracion_module",
       "target": "readme_cria_module"
     },
@@ -3073,6 +3215,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 0.95,
+      "_origin": "semantic",
       "source": "readme_tareas_module",
       "target": "readme_cria_module"
     },
@@ -3083,6 +3226,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_integracion_module",
       "target": "readme_ceba_module"
     },
@@ -3093,6 +3237,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 0.95,
+      "_origin": "semantic",
       "source": "readme_lotes_destete",
       "target": "readme_ceba_module"
     },
@@ -3103,6 +3248,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_integracion_module",
       "target": "readme_lotes_destete"
     },
@@ -3113,6 +3259,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_ec2_deployment",
       "target": "readme_postgresql"
     },
@@ -3123,6 +3270,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_ec2_deployment",
       "target": "readme_pm2"
     }
@@ -3143,5 +3291,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "0a93d48be9ce85cd3bea2b992bd980ca7198a918"
+  "built_at_commit": "039abdd55e5484538adf3ec92baa278f723ccdd0"
 }
