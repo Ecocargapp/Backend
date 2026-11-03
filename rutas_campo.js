@@ -5,6 +5,7 @@
 // ============================================================
 import express from 'express';
 import pool from './db.js';
+import { calcularInventario } from './rutas_planta.js';
 
 const router = express.Router();
 
@@ -65,7 +66,13 @@ router.get('/datos', async (req, res) => {
        WHERE tipo_alimento IS NOT NULL AND tipo_alimento <> '' AND fecha > CURRENT_DATE - 365
        ORDER BY tipo_alimento`)).rows.map(r => r.tipo_alimento);
 
-    res.json({ generado: new Date().toISOString(), cerdas, razas, bandas, granjas, lotes,
+    // Inventario de alimento por granja y referencia (la app lo descarga y lo ajusta con lo pendiente)
+    const hoyCliente = /^\d{4}-\d{2}-\d{2}$/.test(req.query.hoy || '') ? req.query.hoy : undefined;
+    const alimento = await calcularInventario(hoyCliente);
+    const referencias = (await pool.query('SELECT id, nombre FROM alimento_referencias WHERE activa = TRUE ORDER BY orden, nombre')).rows;
+    const granjasAlimento = (await pool.query('SELECT id, nombre, tipo, granja_ceba_id FROM alimento_granjas WHERE activa = TRUE ORDER BY tipo, nombre')).rows;
+
+    res.json({ generado: new Date().toISOString(), cerdas, razas, bandas, granjas, lotes, alimento, referencias, granjas_alimento: granjasAlimento,
                alimentos_cria: alimCria, alimentos_ceba: alimCeba });
   } catch (e) {
     console.error(e);

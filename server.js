@@ -10,6 +10,7 @@ import rutasCosteo from './rutas_costeo.js';
 import rutasTareas from './rutas_tareas.js';
 import rutasCeba from './rutas_ceba.js';
 import rutasCampo from './rutas_campo.js';
+import rutasPlanta from './rutas_planta.js';
 import idempotencia from './idempotencia.js';
 
 dotenv.config();
@@ -139,9 +140,9 @@ app.post('/api/usuarios', requiereLogin, requiereAdmin, async (req, res) => {
     const { rows } = await pool.query(
       `INSERT INTO usuarios (nombre, email, password_hash, rol)
        VALUES ($1, $2, $3, $4) RETURNING id`,
-      [nombre.trim(), emailNorm, hash, rol === 'admin' ? 'admin' : 'operador']
+      [nombre.trim(), emailNorm, hash, ['admin','planta'].includes(rol) ? rol : 'operador']
     );
-    res.json({ id: rows[0].id, nombre, email: emailNorm, rol });
+    res.json({ id: rows[0].id, nombre, email: emailNorm, rol: ['admin','planta'].includes(rol) ? rol : 'operador' });
   } catch (e) {
     console.error(e);
     res.status(500).json({ error: 'Error del servidor' });
@@ -173,6 +174,7 @@ app.use('/api/costeo', requiereLogin, rutasCosteo);
 app.use('/api/tareas', requiereLogin, idempotencia, rutasTareas);
 app.use('/api/ceba', requiereLogin, idempotencia, rutasCeba);
 app.use('/api/campo', requiereLogin, idempotencia, rutasCampo);
+app.use('/api/planta', requiereLogin, idempotencia, rutasPlanta);
 
 app.get('/api/salud', (req, res) => res.json({ ok: true, servicio: 'agrosoft-backend' }));
 

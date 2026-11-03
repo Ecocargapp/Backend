@@ -153,9 +153,16 @@ router.get('/consumo/:granjaId', async (req, res) => {
   res.json(rows);
 });
 router.post('/consumo', async (req, res) => {
-  const { granja_id, lote_id, fecha, bultos, costo_bulto, tipo_alimento, observaciones } = req.body;
+  const { granja_id, lote_id, fecha, bultos, costo_bulto, observaciones, referencia_id } = req.body;
+  let { tipo_alimento } = req.body;
   if (!lote_id || !fecha || bultos==null)
     return res.status(400).json({ error: 'Lote, fecha y bultos son obligatorios' });
+  // Referencia de alimento (descuenta del inventario de la granja); si no se indica el nombre, se usa el de la referencia
+  if (referencia_id) {
+    const rf = (await pool.query('SELECT nombre FROM alimento_referencias WHERE id=$1', [referencia_id])).rows[0];
+    if (!rf) return res.status(400).json({ error: 'Referencia de alimento inválida' });
+    if (!tipo_alimento) tipo_alimento = rf.nombre;
+  }
   // Si no se indica el costo del bulto (p. ej. registro desde la app de campo),
   // se usa el último costo conocido del mismo alimento en ese lote o en la granja.
   let costo = costo_bulto || null;
@@ -168,9 +175,9 @@ router.post('/consumo', async (req, res) => {
     costo = ult ? ult.costo_bulto : null;
   }
   const { rows } = await pool.query(
-    `INSERT INTO consumo_ceba (granja_id, lote_id, fecha, bultos, costo_bulto, tipo_alimento, observaciones, usuario_id)
-     VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING *`,
-    [granja_id||null, lote_id, fecha, bultos, costo, tipo_alimento||null, observaciones||null, req.usuario?.id||null]);
+    `INSERT INTO consumo_ceba (granja_id, lote_id, fecha, bultos, costo_bulto, tipo_alimento, observaciones, usuario_id, referencia_id)
+     VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *`,
+    [granja_id||null, lote_id, fecha, bultos, costo, tipo_alimento||null, observaciones||null, req.usuario?.id||null, referencia_id||null]);
   res.json(rows[0]);
 });
 router.delete('/consumo/:id', async (req, res) => {

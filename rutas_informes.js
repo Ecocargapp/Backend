@@ -265,9 +265,16 @@ router.get('/consumos', async (req, res) => {
   res.json(rows);
 });
 router.post('/consumos', async (req, res) => {
-  const { fecha, fase, banda_id, tipo_alimento, bultos, kg_por_bulto, costo_bulto, observaciones } = req.body;
+  const { fecha, fase, banda_id, bultos, kg_por_bulto, costo_bulto, observaciones, referencia_id } = req.body;
+  let { tipo_alimento } = req.body;
   if (!fecha || !fase || bultos == null)
     return res.status(400).json({ error: 'Fecha, fase y bultos son obligatorios' });
+  // Referencia de alimento (descuenta del inventario de El Tres); si no se indica el nombre, se usa el de la referencia
+  if (referencia_id) {
+    const rf = (await pool.query('SELECT nombre FROM alimento_referencias WHERE id=$1', [referencia_id])).rows[0];
+    if (!rf) return res.status(400).json({ error: 'Referencia de alimento inválida' });
+    if (!tipo_alimento) tipo_alimento = rf.nombre;
+  }
   // Si no se indica el costo del bulto (p. ej. registro desde la app de campo),
   // se usa el último costo conocido del mismo alimento (o de la misma fase).
   let costo = costo_bulto || null;
@@ -280,10 +287,10 @@ router.post('/consumos', async (req, res) => {
     costo = ult ? ult.costo_bulto : null;
   }
   const { rows } = await pool.query(
-    `INSERT INTO consumos_alimento (fecha, fase, banda_id, tipo_alimento, bultos, kg_por_bulto, costo_bulto, observaciones, usuario_id)
-     VALUES ($1,$2,$3,$4,$5,COALESCE($6,40),$7,$8,$9) RETURNING *`,
+    `INSERT INTO consumos_alimento (fecha, fase, banda_id, tipo_alimento, bultos, kg_por_bulto, costo_bulto, observaciones, usuario_id, referencia_id)
+     VALUES ($1,$2,$3,$4,$5,COALESCE($6,40),$7,$8,$9,$10) RETURNING *`,
     [fecha, fase, banda_id||null, tipo_alimento||null, bultos, kg_por_bulto||null,
-     costo, observaciones||null, req.usuario?.id||null]);
+     costo, observaciones||null, req.usuario?.id||null, referencia_id||null]);
   res.json(rows[0]);
 });
 
