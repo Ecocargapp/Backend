@@ -44,17 +44,14 @@ router.get('/datos', async (req, res) => {
     const granjas = (await pool.query(
       'SELECT id, nombre FROM granjas_ceba WHERE activa = TRUE ORDER BY nombre')).rows;
 
-    const lotes = (await pool.query(`
-      SELECT l.id, l.nombre, l.granja_ceba_id, g.nombre AS granja, l.lechones,
-             l.lechones - COALESCE((SELECT SUM(m.cantidad) FROM movimientos_ceba m
-                                    WHERE m.lote_id = l.id AND m.tipo IN ('muerte','venta')), 0) AS inventario,
+    // Ceba por granja: animales vivos (ingresos − muertes − ventas) y último pesaje de cada granja
+    const granjasCeba = (await pool.query(`
+      SELECT g.id, g.nombre,
+             COALESCE((SELECT SUM(CASE m.tipo WHEN 'ingreso' THEN m.cantidad ELSE -m.cantidad END)
+                       FROM movimientos_ceba m WHERE m.granja_id = g.id AND m.tipo IN ('ingreso','muerte','venta')), 0)::int AS inventario,
              (SELECT json_build_object('fecha', to_char(w.fecha,'YYYY-MM-DD'), 'peso', w.peso_promedio, 'cantidad', w.cantidad)
-                FROM pesajes w WHERE w.lote_id = l.id ORDER BY w.fecha DESC, w.id DESC LIMIT 1) AS ultimo_pesaje
-      FROM lotes_destete l
-      JOIN granjas_ceba g ON g.id = l.granja_ceba_id
-      WHERE l.activo = TRUE
-      ORDER BY g.nombre, l.nombre`)).rows
-      .filter(l => Number(l.inventario) > 0);
+                FROM pesajes w WHERE w.granja_ceba_id = g.id ORDER BY w.fecha DESC, w.id DESC LIMIT 1) AS ultimo_pesaje
+      FROM granjas_ceba g WHERE g.activa = TRUE ORDER BY g.nombre`)).rows;
 
     // Nombres de alimento usados recientemente (para sugerir en los formularios)
     const alimCria = (await pool.query(
@@ -72,7 +69,7 @@ router.get('/datos', async (req, res) => {
     const referencias = (await pool.query('SELECT id, nombre FROM alimento_referencias WHERE activa = TRUE ORDER BY orden, nombre')).rows;
     const granjasAlimento = (await pool.query('SELECT id, nombre, tipo, granja_ceba_id FROM alimento_granjas WHERE activa = TRUE ORDER BY tipo, nombre')).rows;
 
-    res.json({ generado: new Date().toISOString(), cerdas, razas, bandas, granjas, lotes, alimento, referencias, granjas_alimento: granjasAlimento,
+    res.json({ generado: new Date().toISOString(), cerdas, razas, bandas, granjas, granjas_ceba: granjasCeba, alimento, referencias, granjas_alimento: granjasAlimento,
                alimentos_cria: alimCria, alimentos_ceba: alimCeba });
   } catch (e) {
     console.error(e);
@@ -183,12 +180,12 @@ router.post('/reemplazos', async (req, res) => {
 });
 
 // ------------------------------------------------------------
-//  PESAJES (una hembra, o una muestra de un lote de ceba)
+//  PESAJES (una hembra, o una muestra de animales de una granja de ceba)
 // ------------------------------------------------------------
 router.post('/pesajes', async (req, res) => {
   try {
-    const { tipo, cerda_id, lote_id, fecha, cantidad, peso_total, observaciones } = req.body;
-    if (!['hembra', 'lote'].includes(tipo)) return res.status(400).json({ error: 'Tipo de pesaje inválido' });
+    const { tipo, cerda_id, lote_id, granja_ceba_id, fecha, cantidad, peso_total, observaciones } = req.body;
+    if (!['hembra', 'lote', 'granja'].includes(tipo)) return res.status(400).json({ error: 'Tipo de pesaje inválido' });
     if (!fecha) return res.status(400).json({ error: 'La fecha es obligatoria' });
     const total = Number(peso_total);
     if (!(total > 0)) return res.status(400).json({ error: 'El peso debe ser mayor que 0' });
@@ -200,18 +197,24 @@ router.post('/pesajes', async (req, res) => {
       if (!c) return res.status(404).json({ error: 'Cerda no encontrada' });
     } else {
       n = Number(cantidad);
-      if (!lote_id) return res.status(400).json({ error: 'Elige el lote' });
+      if (tipo === 'granja' && !granja_ceba_id) return res.status(400).json({ error: 'Elige la granja' });
+      if (tipo === 'lote' && !lote_id) return res.status(400).json({ error: 'Elige el lote' });
       if (!Number.isInteger(n) || n < 1) return res.status(400).json({ error: 'Escribe cuántos animales pesaste' });
       const prom = total / n;
       if (!(prom >= 3 && prom <= 200)) return res.status(400).json({ error: `El promedio (${prom.toFixed(1)} kg por animal) parece incorrecto. Revisa el peso total y la cantidad.` });
-      const l = (await pool.query('SELECT id FROM lotes_destete WHERE id=$1', [lote_id])).rows[0];
-      if (!l) return res.status(404).json({ error: 'Lote no encontrado' });
+      if (tipo === 'granja') {
+        const gr = (await pool.query('SELECT id FROM granjas_ceba WHERE id=$1', [granja_ceba_id])).rows[0];
+        if (!gr) return res.status(404).json({ error: 'Granja no encontrada' });
+      } else {
+        const l = (await pool.query('SELECT id FROM lotes_destete WHERE id=$1', [lote_id])).rows[0];
+        if (!l) return res.status(404).json({ error: 'Lote no encontrado' });
+      }
     }
     const promedio = Number((total / n).toFixed(2));
     const { rows } = await pool.query(
-      `INSERT INTO pesajes (tipo, cerda_id, lote_id, fecha, cantidad, peso_total, peso_promedio, observaciones, usuario_id)
-       VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *`,
-      [tipo, tipo === 'hembra' ? cerda_id : null, tipo === 'lote' ? lote_id : null, fecha, n, total, promedio,
+      `INSERT INTO pesajes (tipo, cerda_id, lote_id, granja_ceba_id, fecha, cantidad, peso_total, peso_promedio, observaciones, usuario_id)
+       VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10) RETURNING *`,
+      [tipo, tipo === 'hembra' ? cerda_id : null, tipo === 'lote' ? lote_id : null, tipo === 'granja' ? granja_ceba_id : null, fecha, n, total, promedio,
        observaciones || null, req.usuario?.id || null]);
     res.json(rows[0]);
   } catch (e) { console.error(e); res.status(500).json({ error: 'Error registrando el pesaje' }); }
