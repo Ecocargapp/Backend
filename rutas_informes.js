@@ -106,6 +106,30 @@ router.get('/por-banda', async (req, res) => {
 });
 
 // ============================================================
+//  INFORME "PREVISIÓN DE PARTOS" — PARTOS PROBABLES SEGÚN FECHA DE SERVICIO
+//  Todas las cerdas servidas en el rango (?desde&hasta = fecha de servicio),
+//  confirmadas preñadas o no. Parto probable = servicio + 114 días.
+// ============================================================
+router.get('/bandas-servicio', async (req, res) => {
+  const { desde, hasta } = rango(req);
+  const { rows } = await pool.query(`
+    SELECT s.id AS servicio_id, c.id AS cerda_id, c.arete, c.estado, c.ubicacion,
+           to_char(s.fecha_servicio,'YYYY-MM-DD')        AS fecha_servicio,
+           to_char(s.fecha_servicio + 114,'YYYY-MM-DD')  AS parto_probable,
+           s.tipo, s.verraco,
+           (SELECT d.resultado FROM diagnosticos d WHERE d.servicio_id = s.id
+             ORDER BY d.fecha DESC, d.id DESC LIMIT 1)    AS diagnostico,
+           EXISTS (SELECT 1 FROM servicios s2 WHERE s2.cerda_id = s.cerda_id
+                    AND s2.fecha_servicio > s.fecha_servicio)  AS reservicio_posterior,
+           EXISTS (SELECT 1 FROM partos p WHERE p.cerda_id = s.cerda_id
+                    AND p.fecha_parto > s.fecha_servicio)      AS ya_pario
+    FROM servicios s JOIN cerdas c ON c.id = s.cerda_id
+    WHERE s.fecha_servicio BETWEEN $1::date AND $2::date
+    ORDER BY s.fecha_servicio, c.arete`, [desde, hasta]);
+  res.json(rows);
+});
+
+// ============================================================
 //  INFORME DE CONSUMO Y COSTOS
 //  Bultos por fase y costo por lechón
 // ============================================================
