@@ -275,15 +275,15 @@ router.get('/materias-primas', async (req, res) => {
   res.json((await pool.query('SELECT id, nombre, orden, activa FROM materias_primas ORDER BY orden, nombre')).rows);
 });
 router.post('/materias-primas', async (req, res) => {
-  if (!esAdmin(req)) return res.status(403).json({ error: 'Solo el administrador puede crear materias primas' });
-  const nombre = String(req.body.nombre || '').trim();
+  if (!['admin', 'planta'].includes(req.usuario?.rol)) return res.status(403).json({ error: 'Solo el administrador o la planta pueden crear materias primas' });
+  const nombre = String(req.body.nombre || '').trim().replace(/\s+/g, ' ');
   if (!nombre) return res.status(400).json({ error: 'El nombre es obligatorio' });
   try {
     const { rows } = await pool.query(
       `INSERT INTO materias_primas (nombre, orden) VALUES ($1, COALESCE((SELECT MAX(orden)+1 FROM materias_primas), 1)) RETURNING *`, [nombre]);
     res.json(rows[0]);
   } catch (e) {
-    if (e.code === '23505') return res.status(400).json({ error: 'Ya existe esa materia prima' });
+    if (e.code === '23505') return res.status(400).json({ error: 'Ya existe una materia prima con ese nombre' });
     console.error(e); res.status(500).json({ error: 'Error creando la materia prima' });
   }
 });
